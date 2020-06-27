@@ -11,6 +11,27 @@ n_classes = len(classes)
 transformer = transforms.Compose(
             [transforms.ToTensor(),
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
+
+def softmaxToOneHot(tensor):
+    label = torch.zeros_like(tensor)
+    for i in range(tensor.size(0)):
+        predicted = torch.argmax(tensor, dim=1)
+        label[i][predicted] = 1
+    return label
+
+class OneHotLabelCifarData(torch.utils.data.Dataset):
+    def __init__(self, dataset):
+        super().__init__()
+        self.data = []
+        for i in range(len(dataset)):
+            label = torch.zeros(n_classes)
+            label[dataset[i][1]] = 1
+            self.data.append((dataset[i][0], label))
+    def __len__(self):
+        return len(self.data)
+    def __getitem__(self, idx):
+        return self.data[idx]
+
 class PartialLabelCifarData(torch.utils.data.Dataset):
     @staticmethod
     # get uniform index
@@ -19,18 +40,8 @@ class PartialLabelCifarData(torch.utils.data.Dataset):
         while ix == last_index:
             ix = np.random.randint(_min, _max)
         return ix
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
-        dataset = CIFAR10(root='./data', train=True, download=True, transform=transformer)
-        validation_size = 10000
-        train_set, val_set = torch.utils.data.random_split(dataset, [len(dataset) - validation_size, validation_size])
-
-        self.validation_data = []
-        for i in range(validation_size):
-            label = torch.zeros(n_classes)
-            label[val_set[i][1]] = 1
-            self.validation_data.append((val_set[i][0], label))
+    def __init__(self, train_set):
+        super().__init__()
 
         data_indexes = []
         self.data = []
@@ -45,19 +56,7 @@ class PartialLabelCifarData(torch.utils.data.Dataset):
                 self.data.append(( train_set[ix1][0], label ))
                 self.data.append(( train_set[ix2][0], label ))
                 data_indexes.append(ix1)
-                data_indexes.append(ix2)
-        # for i in range(5000):
-        #     label = torch.zeros(n_classes)
-        #     ix1 = next_index(0, len(train_set))
-        #     ix2 = next_index(0, len(train_set), ix1)
-
-        #     while train_set[ix1][1] == train_set[ix2][1]:
-        #         ix2 = next_index(ix1)
-        #     label[trainset[ix1][1]] = 1
-        #     label[trainset[ix2][1]] = 1
-        #     self.data.append(( trainset[ix1][0], label))
-        #     self.data.append(( trainset[ix2][0], label))
-        
+                data_indexes.append(ix2)    
     def __len__(self):
         return len(self.data)
     def __getitem__(self, idx):

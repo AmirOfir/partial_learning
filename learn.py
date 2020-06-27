@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 from regular import train_regular
-from preprocess import PartialLabelCifarData, transformer, classes, n_classes, get_class_performance, test_performance
+from preprocess import OneHotLabelCifarData, PartialLabelCifarData, transformer, classes, n_classes, get_class_performance, test_performance
 from net import create_net
 
 def createOptimizer(net, learning_rate, hyperparameters):
@@ -24,15 +24,18 @@ learning_rate = hyperparameters.get("learning_rate", 0.1)
 early_stop = hyperparameters.get("early_stop", 0.02)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-trainset = PartialLabelCifarData()
+dataset = CIFAR10(root='./data', train=True, download=True, transform=transformer)
+validation_size = 10000
+train_data, val_data = torch.utils.data.random_split(dataset, [len(dataset) - validation_size, validation_size])
+valset = OneHotLabelCifarData(val_data)
+trainset = PartialLabelCifarData(train_data)
 
 # Get max classes
 print("regular training")
 regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
-train_regular(epochs, model, regular_optimizer, nn.L1Loss(), \
-    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9),
-    len(trainset.data), len(trainset.validation_data), batch_size, early_stop)
-get_class_performance(model, trainset.validation_data)
+train_regular(train_data, epochs, model, regular_optimizer, nn.L1Loss(), \
+    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
+get_class_performance(model, valset)
 test_performance(model)
 
 exit()
