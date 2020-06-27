@@ -62,7 +62,7 @@ class PartialLabelCifarData(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         return self.data[idx]
 
-def get_class_performance(net, data_set):
+def get_class_performance(net, data_set, print_result=True):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     loader = torch.utils.data.DataLoader(data_set, batch_size=1, shuffle=False, num_workers=0)
     class_correct = list(0. for i in range(n_classes))
@@ -78,10 +78,14 @@ def get_class_performance(net, data_set):
             if (label == predicted_label):
                 class_correct[predicted] += 1
             class_total[predicted] += 1
+    class_perf = []
 
     for i in range(n_classes):
-        print('Accuracy of %5s : %2d %%' % (
-            classes[i], 100 * class_correct[i] / class_total[i]))
+        perf = 100 * class_correct[i] / class_total[i]
+        class_perf.append(perf)
+        if (print_result):
+            print( f'Accuracy of {classes[i]} : {perf}%' )
+    return class_perf
     
 def test_performance(net):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

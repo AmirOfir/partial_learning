@@ -9,6 +9,7 @@ import torch.optim as optim
 from regular import train_regular
 from preprocess import OneHotLabelCifarData, PartialLabelCifarData, transformer, classes, n_classes, get_class_performance, test_performance
 from net import create_net
+from partial import partialStep, optimizeTrainingData
 
 def createOptimizer(net, learning_rate, hyperparameters):
     optimizer_name = hyperparameters.get("optimizer", "SGD")
@@ -31,55 +32,29 @@ valset = OneHotLabelCifarData(val_data)
 trainset = PartialLabelCifarData(train_data)
 
 # Get max classes
-print("regular training")
-regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
-train_regular(train_data, epochs, model, regular_optimizer, nn.L1Loss(), \
-    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
-get_class_performance(model, valset)
-test_performance(model)
+# print("regular training")
+# regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
+# train_regular(train_data, epochs, model, regular_optimizer, nn.L1Loss(), \
+#     optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
+# get_class_performance(model, valset)
+# test_performance(model)
 
-exit()
+# Reset
+hyperparameters, model = create_net()
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size, shuffle=True, num_workers=0)
-
 model.to(device)
-
 criterion = nn.L1Loss()
-optimizer = createOptimizer()
-
+optimizer = createOptimizer(model, learning_rate, hyperparameters)
 lr_scheduler = optim.lr_scheduler.StepLR(optimizer=optimizer, step_size=1, gamma=0.9)
 
-def train(epochs, trainloader, net, optimizer, criterion, lr_scheduler=None, early_stop=0):
-    for epoch in range(epochs):  # loop over the dataset multiple times
+total = 0
+partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)
+count = optimizeTrainingData(model, valset, trainset)
+total += count
+while (count > 0 and total < 5000):
+    partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)
+    count = optimizeTrainingData(model, valset, trainset)
+    total += count
+test_performance(model)    
 
-        running_loss = 0.0
-        for i, data in enumerate(trainloader, 0):
-
-            # get the inputs; data is a list of [inputs, labels]
-            inputs, labels = data[0].to(device), data[1].to(device)
-            
-            # zero the parameter gradients
-            optimizer.zero_grad()
-            
-            # forward + backward + optimize
-            outputs = net(inputs)
-            # if (epoch == 4):
-            #     print(outputs, torch.argmax(outputs, dim=1), labels)
-            loss = criterion(outputs, labels)
-            loss.backward()
-            optimizer.step()
-
-            # print statistics
-            running_loss += loss.item()
-            if i % 1000 == 999:    # print every 1000 mini-batches
-                print('[%d, %5d] loss: %.3f' %
-                    (epoch + 1, i + 1, running_loss / 1000))
-                if (early_stop != 0):
-                    if (running_loss / 1000 <= early_stop):
-                        return
-                running_loss = 0.0
-
-        if (not lr_scheduler is None):
-            lr_scheduler.step()
-
-train(epochs, trainloader, model, optimizer, criterion, lr_scheduler)
 print('Finished Training')
