@@ -5,85 +5,41 @@ from torchvision.datasets import CIFAR10
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from preprocess import PartialLabelCifarData, transformer, classes, n_classes
 
-epochs = 10
-batch_size = 1
-learning_rate = 0.1
-momentum = 0.9
-early_stop = 0.02
+from regular import train_regular
+from preprocess import PartialLabelCifarData, transformer, classes, n_classes, get_class_performance, test_performance
+from net import create_net
 
+def createOptimizer(net, learning_rate, hyperparameters):
+    optimizer_name = hyperparameters.get("optimizer", "SGD")
+    if optimizer_name == "Adam":
+        return optim.Adam(net.parameters(), lr=learning_rate)
+    else:
+        return optim.SGD(net.parameters(), lr=learning_rate, momentum=hyperparameters.get("SGD_momentun", 0.9))
+
+hyperparameters, model = create_net()
+epochs = hyperparameters.get("epochs", 5)
+batch_size = hyperparameters.get("batch_size", 5)
+learning_rate = hyperparameters.get("learning_rate", 0.1)
+early_stop = hyperparameters.get("early_stop", 0.02)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 trainset = PartialLabelCifarData()
+
+# Get max classes
+print("regular training")
+regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
+train_regular(epochs, model, regular_optimizer, nn.L1Loss(), \
+    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9),
+    len(trainset.data), len(trainset.validation_data), batch_size, early_stop)
+get_class_performance(model, trainset.validation_data)
+test_performance(model)
+
+exit()
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size, shuffle=True, num_workers=0)
 
-class CNN(nn.Module):
-    def __init__(self):
-        """CNN Builder."""
-        super(CNN, self).__init__()
+model.to(device)
 
-        self.conv_layer = nn.Sequential(
-
-            # Conv Layer block 1
-            nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-
-            # Conv Layer block 2
-            nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, padding=1),
-            nn.BatchNorm2d(128),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(in_channels=128, out_channels=128, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.Dropout2d(p=0.05),
-
-            # Conv Layer block 3
-            nn.Conv2d(in_channels=128, out_channels=256, kernel_size=3, padding=1),
-            nn.BatchNorm2d(256),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(in_channels=256, out_channels=256, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-        )
-
-
-        self.fc_layer = nn.Sequential(
-            nn.Dropout(p=0.1),
-            nn.Linear(4096, 1024),
-            nn.ReLU(inplace=True),
-            nn.Linear(1024, 512),
-            nn.ReLU(inplace=True),
-            nn.Dropout(p=0.1),
-            nn.Linear(512, 10)
-        )
-
-
-    def forward(self, x):
-        """Perform forward."""
-        
-        # conv layers
-        x = self.conv_layer(x)
-        
-        # flatten
-        x = x.view(x.size(0), -1)
-        
-        # fc layer
-        x = self.fc_layer(x)
-
-        return x
-
-net = CNN()
-net.to(device)
-
-def createOptimizer():
-    global net
-    return optim.SGD(net.parameters(), lr=learning_rate)
-    # return optim.Adam(net.parameters(), lr=learning_rate)
 criterion = nn.L1Loss()
 optimizer = createOptimizer()
 
@@ -122,26 +78,5 @@ def train(epochs, trainloader, net, optimizer, criterion, lr_scheduler=None, ear
         if (not lr_scheduler is None):
             lr_scheduler.step()
 
-train(epochs, trainloader, net, optimizer, criterion, lr_scheduler)
+train(epochs, trainloader, model, optimizer, criterion, lr_scheduler)
 print('Finished Training')
-
-# Test Accuracy
-testset = CIFAR10(root='./data', train=False, download=True, transform=transformer)
-testloader = torch.utils.data.DataLoader(testset, batch_size=1, shuffle=False, num_workers=0)
-correct = 0
-total = 0
-with torch.no_grad():
-    for data in testloader:
-        images, labels = data[0].to(device), data[1].to(device)
-        outputs = net(images)
-
-        # print(outputs, torch.argmax(outputs))
-        # print(labels)
-        # exit()
-        # _, predicted = torch.max(outputs.data, 1)
-        # print (predicted, labels)
-        total += labels.size(0)
-        correct += (torch.argmax(outputs, dim=1) == labels).sum().item()
-
-print('Accuracy of the network on the 10000 test images: %d %%' % (
-    100 * correct / total))                              

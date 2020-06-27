@@ -5,6 +5,7 @@ from torchvision.datasets import CIFAR10
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import argparse
 
 def parse_model_config(path):
     """Parses the layer configuration file and returns module definitions"""
@@ -57,11 +58,10 @@ def create_modules(module_defs):
     """
     hyperparams = module_defs.pop(0)
     output_filters = [int(hyperparams["channels"])]
-    module_list = nn.ModuleList()
+    modules = nn.Sequential()
     
     for module_i, module_def in enumerate(module_defs):
-        modules = nn.Sequential()
-
+        
         if module_def["type"] == "convolutional":
             bn = int(module_def["batch_normalize"])
             filters = int(module_def["filters"])
@@ -134,7 +134,85 @@ def create_modules(module_defs):
             modules.add_module(f"shortcut_{module_i}", EmptyLayer())
 
         # Register module list and number of output filters
-        module_list.append(modules)
         output_filters.append(filters)
 
-    return hyperparams, module_list    
+    return hyperparams, modules    
+
+class CNN(nn.Module):
+    def __init__(self):
+        """CNN Builder."""
+        super(CNN, self).__init__()
+
+        self.conv_layer = nn.Sequential(
+
+            # Conv Layer block 1
+            nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1),
+            nn.BatchNorm2d(32),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+
+            # Conv Layer block 2
+            nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, padding=1),
+            nn.BatchNorm2d(128),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(in_channels=128, out_channels=128, kernel_size=3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Dropout2d(p=0.05),
+
+            # Conv Layer block 3
+            nn.Conv2d(in_channels=128, out_channels=256, kernel_size=3, padding=1),
+            nn.BatchNorm2d(256),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(in_channels=256, out_channels=256, kernel_size=3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+        )
+
+
+        self.fc_layer = nn.Sequential(
+            nn.Dropout(p=0.1),
+            nn.Linear(4096, 1024),
+            nn.ReLU(inplace=True),
+            nn.Linear(1024, 512),
+            nn.ReLU(inplace=True),
+            nn.Dropout(p=0.1),
+            nn.Linear(512, 10)
+        )
+
+
+    def forward(self, x):
+        """Perform forward."""
+        
+        # conv layers
+        x = self.conv_layer(x)
+        
+        # flatten
+        x = x.view(x.size(0), -1)
+        
+        # fc layer
+        x = self.fc_layer(x)
+
+        return x
+
+def create_net():
+    hyperparams_dict = {
+        "batch_size": 10,
+        "epochs": 5,
+        "learning_rate": 0.1,
+        "optimizer": "SGD",
+        "SGD_momentun": 0.9,
+        "early_stop": 0.02
+    }
+    return hyperparams_dict, CNN()
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_def", type=str, default="config.cfg", help="path to model definition file")
+    opt = parser.parse_args()
+    config_path = opt.model_def
+    module_defs = parse_model_config(config_path)
+    hyperparams, module_list = create_modules(module_defs)
+
+    return hyperparams, module_list
