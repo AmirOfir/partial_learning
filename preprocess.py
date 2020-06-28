@@ -70,18 +70,18 @@ def get_class_performance(net, data_set, print_result=True):
 
     with torch.no_grad():
         for data in loader:
-            image, label = data[0].to(device), data[1].to(device)
+            image, label = data[0].to(device), data[1].cpu()
             output = net(image)
             predicted = torch.argmax(output, dim=1)
             predicted_label = torch.zeros(n_classes)
             predicted_label[predicted] = 1
-            if (label == predicted_label):
+            if (torch.equal(label.squeeze(), predicted_label)):
                 class_correct[predicted] += 1
-            class_total[predicted] += 1
+            class_total[torch.argmax(label).item()] += 1
     class_perf = []
-
+    #print(class_total, class_correct)
     for i in range(n_classes):
-        perf = 100 * class_correct[i] / class_total[i]
+        perf = 0 if class_total[i] == 0 else 100 * class_correct[i] / class_total[i]
         class_perf.append(perf)
         if (print_result):
             print( f'Accuracy of {classes[i]} : {perf}%' )
