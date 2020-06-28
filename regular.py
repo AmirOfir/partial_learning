@@ -12,7 +12,7 @@ from net import create_net
 
 def train_regular(train_set:torch.utils.data.Dataset, epochs, net, optimizer, criterion, lr_scheduler, batch_size, early_stop):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    net.to(device)
+    net.train()
 
     trainloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=0)
 
@@ -35,7 +35,7 @@ def train_regular(train_set:torch.utils.data.Dataset, epochs, net, optimizer, cr
 
             # print statistics
             running_loss += loss.item()
-            if i % 1000 == 999:    # print every 1000 mini-batches
+            if i % 100 == 99:    # print every 1000 mini-batches
                 print('[%d, %5d] loss: %.3f' %
                     (epoch + 1, i + 1, running_loss / 1000))
                 if (early_stop != 0):

@@ -9,27 +9,29 @@ import torch.optim as optim
 from preprocess import OneHotLabelCifarData, PartialLabelCifarData, classes, n_classes, get_class_performance
 from net import create_net
 
-def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized_class:int, prediction_threshold=0.2):
+def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized_class:int, prediction_threshold:float):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     optimized_entities = 0
     ground_truth_label = torch.zeros(n_classes); ground_truth_label[optimized_class] = 1
-
+    print ('optimizing class', classes[optimized_class])
     for i in range(len(trainset)):
         # If the item is marked as having this class and another
         if torch.sum(trainset[i][1]) == 2 and torch.sum(torch.mul(trainset[i][1], ground_truth_label) == 1):
-            # If the prediction is high for this class
+            # Get the prediction is high for this class
             item : torch.Tensor = trainset[i][0]
             if item.dim() == 3: item = item.unsqueeze(0)
-            output_label = model(item.to(device))
+            output_label = model(item.to(device)).squeeze(0)
             
-            if (torch.max(output_label[0]) > prediction_threshold):
-                if torch.argmax(output_label) == optimized_class:
-                    trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
-                else:
-                    trainset.data[i][1][optimized_class] = 0
+            if output_label[optimized_class] >= prediction_threshold:
+                trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
+                optimized_entities += 1
+            elif output_label[optimized_class] <= 0.1:
+                # This is not an example of <class>
+                trainset.data[i][1][optimized_class] = 0
                 optimized_entities += 1
     return optimized_entities
-def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.1, min_perf=0.6):
+def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.5, min_perf=0.5):
+    model.eval()
     class_perf = get_class_performance(model, valset)
     highest = torch.argmax(torch.Tensor(class_perf))
     optimized_entities = 0
@@ -40,14 +42,14 @@ def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trains
     print('corrected', optimized_entities, 'labels')
     return optimized_entities
 
-def partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler):
+def partialStep(model:nn.Module, trainloader:PartialLabelCifarData, epochs:int, optimizer, criterion, early_stop, lr_scheduler):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    model.to(device)
+    model.train()
 
     for epoch in range(epochs):
+        print('partial label learning epoch', epoch)
         running_loss = 0.0
         for i, data in enumerate(trainloader, 0):
-
             # get the inputs; data is a list of [inputs, labels]
             inputs, labels = data[0].to(device), data[1].to(device)
             
@@ -63,7 +65,7 @@ def partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr
 
             # print statistics
             running_loss += loss.item()
-            if i % 1000 == 999:    # print every 1000 mini-batches
+            if i % 100 == 99:    # print every 1000 mini-batches
                 print('[%d, %5d] loss: %.3f' %
                     (epoch + 1, i + 1, running_loss / 1000))
                 if (early_stop != 0):

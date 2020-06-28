@@ -138,6 +138,25 @@ def create_modules(module_defs):
 
     return hyperparams, modules    
 
+
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.conv1 = nn.Conv2d(3, 6, 5)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(6, 16, 5)
+        self.fc1 = nn.Linear(16 * 5 * 5, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, 10)
+
+    def forward(self, x):
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        x = x.view(-1, 16 * 5 * 5)
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
 class CNN(nn.Module):
     def __init__(self):
         """CNN Builder."""
@@ -201,13 +220,15 @@ class CNN(nn.Module):
 def create_net():
     hyperparams_dict = {
         "batch_size": 10,
-        "epochs": 5,
+        "epochs": 20,
         "learning_rate": 0.1,
+        "learning_rate_decay": 0.1,
+        "learning_rate_change_epochs": 10,
         "optimizer": "SGD",
         "SGD_momentun": 0.9,
-        "early_stop": 0.02
+        "early_stop": 0
     }
-    return hyperparams_dict, CNN()
+    return hyperparams_dict, Net()
     
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_def", type=str, default="config.cfg", help="path to model definition file")

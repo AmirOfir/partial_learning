@@ -79,7 +79,7 @@ def get_class_performance(net, data_set, print_result=True):
                 class_correct[predicted] += 1
             class_total[torch.argmax(label).item()] += 1
     class_perf = []
-    #print(class_total, class_correct)
+    print(class_total, class_correct)
     for i in range(n_classes):
         perf = 0 if class_total[i] == 0 else 100 * class_correct[i] / class_total[i]
         class_perf.append(perf)
@@ -89,6 +89,7 @@ def get_class_performance(net, data_set, print_result=True):
     
 def test_performance(net):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    net.eval()
     testset = CIFAR10(root='./data', train=False, download=True, transform=transformer)
     testloader = torch.utils.data.DataLoader(testset, batch_size=1, shuffle=False, num_workers=0)
     correct = 0
