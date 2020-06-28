@@ -9,20 +9,34 @@ import torch.optim as optim
 from preprocess import OneHotLabelCifarData, PartialLabelCifarData, classes, n_classes, get_class_performance
 from net import create_net
 
-def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, threshold: float=0.1):
-    class_perf = get_class_performance(model, valset)
-    optimized_class = torch.argmax(class_perf)
+def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized_class:int, prediction_threshold=0.2):
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    optimized_entities = 0
     ground_truth_label = torch.zeros(n_classes); ground_truth_label[optimized_class] = 1
 
-    count = 0
-    for i in len(trainset):
-        if (trainset[i][1] == ground_truth_label):
-            output_label = model(trainset[i][0])
-            if (torch.argmax(output_label) == optimized_class and output_label[optimized_class] > threshold): # We proably have the right item
-                trainset[i][1] = torch.clone(ground_truth_label)
-                count += 1
-    print('corrected', count, 'labels')
-    return count
+    for i in range(len(trainset)):
+        # If the item is marked as having this class
+        if torch.sum(torch.mul(trainset[i][1], ground_truth_label) == 1):
+            # If the prediction is high for this class
+            item : torch.Tensor = trainset[i][0]
+            if item.dim() == 3: item = item.unsqueeze(0)
+            output_label = model(item.to(device))
+            # print(output_label, optimized_class)
+            if (output_label[0][optimized_class].item() > prediction_threshold or \
+                torch.argmax(output_label) == optimized_class):
+                trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
+                optimized_entities += 1
+    return optimized_entities
+def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.1, min_perf=0.6):
+    class_perf = get_class_performance(model, valset)
+    highest = torch.argmax(torch.Tensor(class_perf))
+    optimized_entities = 0
+    for c in range(n_classes):
+        if (class_perf[c] > min_perf or class_perf[c] == highest):
+            optimized_entities += optimizeClass(model, trainset, c, prediction_threshold)
+
+    print('corrected', optimized_entities, 'labels')
+    return optimized_entities
 
 def partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

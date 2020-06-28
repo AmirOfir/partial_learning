@@ -52,10 +52,16 @@ total = 0
 partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)
 count = optimizeTrainingData(model, valset, trainset)
 total += count
-while (count > 0 and total < 5000):
+while (count > 0 and total < 10000):
     partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)
     count = optimizeTrainingData(model, valset, trainset)
     total += count
 test_performance(model)    
+
+# Train after the correction
+regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
+train_regular(trainset, epochs, model, regular_optimizer, nn.L1Loss(), \
+    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
+test_performance(model)
 
 print('Finished Training')
