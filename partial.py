@@ -15,16 +15,18 @@ def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized
     ground_truth_label = torch.zeros(n_classes); ground_truth_label[optimized_class] = 1
 
     for i in range(len(trainset)):
-        # If the item is marked as having this class
-        if torch.sum(torch.mul(trainset[i][1], ground_truth_label) == 1):
+        # If the item is marked as having this class and another
+        if torch.sum(trainset[i][1]) == 2 and torch.sum(torch.mul(trainset[i][1], ground_truth_label) == 1):
             # If the prediction is high for this class
             item : torch.Tensor = trainset[i][0]
             if item.dim() == 3: item = item.unsqueeze(0)
             output_label = model(item.to(device))
-            # print(output_label, optimized_class)
-            if (output_label[0][optimized_class].item() > prediction_threshold or \
-                torch.argmax(output_label) == optimized_class):
-                trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
+            
+            if (torch.max(output_label[0]) > prediction_threshold):
+                if torch.argmax(output_label) == optimized_class:
+                    trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
+                else:
+                    trainset.data[i][1][optimized_class] = 0
                 optimized_entities += 1
     return optimized_entities
 def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.1, min_perf=0.6):
