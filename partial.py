@@ -17,20 +17,25 @@ def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized
     for i in range(len(trainset)):
         # If the item is marked as having this class and another
         if torch.sum(trainset[i][1]) == 2 and torch.sum(torch.mul(trainset[i][1], ground_truth_label) == 1):
+            
             # Get the prediction is high for this class
             item : torch.Tensor = trainset[i][0]
             if item.dim() == 3: item = item.unsqueeze(0)
             output_label = model(item.to(device)).squeeze(0)
-            
-            if output_label[optimized_class] >= prediction_threshold:
-                trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
-                optimized_entities += 1
-            elif output_label[optimized_class] <= 0.1:
-                # This is not an example of <class>
-                trainset.data[i][1][optimized_class] = 0
-                optimized_entities += 1
+            output_label = torch.softmax(output_label,0)
+
+            if torch.argmax(output_label).item() == optimized_class:
+                if torch.max(output_label).item() >= prediction_threshold:
+                    print('Hey,', i, 'is a', classes[trainset[i][2]], 'classified as', classes[torch.argmax(output_label).item()], 'with prob.', torch.max(output_label).item() )
+                    trainset.data[i] = (trainset[i][0], torch.clone(ground_truth_label))
+                    optimized_entities += 1
+            # elif output_label[optimized_class] <= 0.1:
+            #     # This is not an example of <class>
+            #     trainset.data[i][1][optimized_class] = 0
+            #     optimized_entities += 1
+            # print('result:', trainset.data[i])
     return optimized_entities
-def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.5, min_perf=0.5):
+def optimizeTrainingData(model : nn.Module, valset: OneHotLabelCifarData, trainset: PartialLabelCifarData, prediction_threshold: float=0.15, min_perf=0.5):
     model.eval()
     class_perf = get_class_performance(model, valset)
     highest = torch.argmax(torch.Tensor(class_perf))

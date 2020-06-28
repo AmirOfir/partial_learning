@@ -62,7 +62,7 @@ criterion = nn.L1Loss().to(device)
 
 label_learning_epoch = 0
 corrected = 0
-while (label_learning_epoch < epochs and corrected < 5000):
+while (label_learning_epoch < 100 and corrected < 5000):
     # Train
     lr_scheduler, optimizer = createOptimizer(model, learning_rate, hyperparameters)
     partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)

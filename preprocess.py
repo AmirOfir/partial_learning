@@ -53,8 +53,8 @@ class PartialLabelCifarData(torch.utils.data.Dataset):
                 and train_set[ix1][1] != train_set[ix2][1]:
                 label[train_set[ix1][1]] = 1
                 label[train_set[ix2][1]] = 1
-                self.data.append(( train_set[ix1][0], label ))
-                self.data.append(( train_set[ix2][0], label ))
+                self.data.append(( train_set[ix1][0], label, train_set[ix1][1] ))
+                self.data.append(( train_set[ix2][0], label, train_set[ix2][1] ))
                 data_indexes.append(ix1)
                 data_indexes.append(ix2)    
     def __len__(self):
@@ -68,16 +68,17 @@ def get_class_performance(net, data_set, print_result=True):
     class_correct = list(0. for i in range(n_classes))
     class_total = list(0. for i in range(n_classes))
 
-    with torch.no_grad():
-        for data in loader:
-            image, label = data[0].to(device), data[1].cpu()
-            output = net(image)
-            predicted = torch.argmax(output, dim=1)
-            predicted_label = torch.zeros(n_classes)
-            predicted_label[predicted] = 1
-            if (torch.equal(label.squeeze(), predicted_label)):
-                class_correct[predicted] += 1
-            class_total[torch.argmax(label).item()] += 1
+    net.eval()
+
+    for data in loader:
+        image, label = data[0].to(device), torch.argmax(data[1].cpu()).item()
+        output = net(image)
+
+        predicted = torch.argmax(output, dim=1).cpu().item()
+        
+        if label == predicted:
+            class_correct[label] += 1
+        class_total[label] += 1
     class_perf = []
     print(class_total, class_correct)
     for i in range(n_classes):
