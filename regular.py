@@ -9,11 +9,11 @@ import torch.optim as optim
 from preprocess import OneHotLabelCifarData, transformer, classes, n_classes
 from net import create_net
 
-def train_regular(train_data, epochs, net, optimizer, criterion, lr_scheduler, batch_size, early_stop):
+
+def train_regular(train_set:torch.utils.data.Dataset, epochs, net, optimizer, criterion, lr_scheduler, batch_size, early_stop):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     net.to(device)
 
-    train_set = OneHotLabelCifarData(train_data)
     trainloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=0)
 
     for epoch in range(epochs):
