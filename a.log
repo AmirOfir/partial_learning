@@ -1,0 +1,2995 @@
+Files already downloaded and verified
+label learning epoch 0 for learning 5000 labels
+partial label learning epoch 0
+[1,   100] loss: 0.021
+[1,   200] loss: 0.021
+[1,   300] loss: 0.021
+[1,   400] loss: 0.021
+[1,   500] loss: 0.021
+partial label learning epoch 1
+[2,   100] loss: 0.021
+[2,   200] loss: 0.021
+[2,   300] loss: 0.021
+[2,   400] loss: 0.021
+[2,   500] loss: 0.021
+partial label learning epoch 2
+[3,   100] loss: 0.021
+[3,   200] loss: 0.021
+[3,   300] loss: 0.021
+[3,   400] loss: 0.021
+[3,   500] loss: 0.021
+partial label learning epoch 3
+[4,   100] loss: 0.021
+[4,   200] loss: 0.021
+[4,   300] loss: 0.021
+[4,   400] loss: 0.021
+[4,   500] loss: 0.021
+partial label learning epoch 4
+[5,   100] loss: 0.021
+[5,   200] loss: 0.021
+[5,   300] loss: 0.021
+[5,   400] loss: 0.021
+[5,   500] loss: 0.021
+partial label learning epoch 5
+[6,   100] loss: 0.021
+[6,   200] loss: 0.021
+[6,   300] loss: 0.021
+[6,   400] loss: 0.021
+[6,   500] loss: 0.021
+partial label learning epoch 6
+[7,   100] loss: 0.021
+[7,   200] loss: 0.021
+[7,   300] loss: 0.021
+[7,   400] loss: 0.021
+[7,   500] loss: 0.021
+partial label learning epoch 7
+[8,   100] loss: 0.021
+[8,   200] loss: 0.021
+[8,   300] loss: 0.021
+[8,   400] loss: 0.021
+[8,   500] loss: 0.021
+partial label learning epoch 8
+[9,   100] loss: 0.021
+[9,   200] loss: 0.021
+[9,   300] loss: 0.021
+[9,   400] loss: 0.021
+[9,   500] loss: 0.021
+partial label learning epoch 9
+[10,   100] loss: 0.021
+[10,   200] loss: 0.021
+[10,   300] loss: 0.021
+[10,   400] loss: 0.021
+[10,   500] loss: 0.021
+partial label learning epoch 10
+[11,   100] loss: 0.020
+[11,   200] loss: 0.020
+[11,   300] loss: 0.020
+[11,   400] loss: 0.020
+[11,   500] loss: 0.020
+partial label learning epoch 11
+[12,   100] loss: 0.020
+[12,   200] loss: 0.020
+[12,   300] loss: 0.020
+[12,   400] loss: 0.020
+[12,   500] loss: 0.020
+partial label learning epoch 12
+[13,   100] loss: 0.020
+[13,   200] loss: 0.020
+[13,   300] loss: 0.020
+[13,   400] loss: 0.020
+[13,   500] loss: 0.020
+partial label learning epoch 13
+[14,   100] loss: 0.020
+[14,   200] loss: 0.020
+[14,   300] loss: 0.020
+[14,   400] loss: 0.020
+[14,   500] loss: 0.020
+partial label learning epoch 14
+[15,   100] loss: 0.020
+[15,   200] loss: 0.020
+[15,   300] loss: 0.020
+[15,   400] loss: 0.020
+[15,   500] loss: 0.020
+partial label learning epoch 15
+[16,   100] loss: 0.020
+[16,   200] loss: 0.020
+[16,   300] loss: 0.020
+[16,   400] loss: 0.020
+[16,   500] loss: 0.020
+partial label learning epoch 16
+[17,   100] loss: 0.020
+[17,   200] loss: 0.020
+[17,   300] loss: 0.020
+[17,   400] loss: 0.020
+[17,   500] loss: 0.020
+partial label learning epoch 17
+[18,   100] loss: 0.020
+[18,   200] loss: 0.020
+[18,   300] loss: 0.020
+[18,   400] loss: 0.020
+[18,   500] loss: 0.020
+partial label learning epoch 18
+[19,   100] loss: 0.020
+[19,   200] loss: 0.020
+[19,   300] loss: 0.020
+[19,   400] loss: 0.020
+[19,   500] loss: 0.020
+partial label learning epoch 19
+[20,   100] loss: 0.020
+[20,   200] loss: 0.020
+[20,   300] loss: 0.020
+[20,   400] loss: 0.020
+[20,   500] loss: 0.020
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [387.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 838.0, 0.0]
+Accuracy of plane : 39.28934010152284%
+Accuracy of car : 0.0%
+Accuracy of bird : 0.0%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.5117707267144319%
+Accuracy of ship : 79.65779467680608%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 132 is a plane classified as plane with prob. 0.22182276844978333
+Hey, 149 is a plane classified as plane with prob. 0.22860954701900482
+Hey, 152 is a plane classified as plane with prob. 0.21817104518413544
+Hey, 167 is a plane classified as plane with prob. 0.21649371087551117
+Hey, 185 is a plane classified as plane with prob. 0.16849084198474884
+Hey, 217 is a plane classified as plane with prob. 0.17661061882972717
+Hey, 280 is a plane classified as plane with prob. 0.22532156109809875
+Hey, 313 is a plane classified as plane with prob. 0.20514577627182007
+Hey, 385 is a plane classified as plane with prob. 0.22916290163993835
+Hey, 404 is a plane classified as plane with prob. 0.17233535647392273
+Hey, 422 is a plane classified as plane with prob. 0.21147923171520233
+Hey, 424 is a plane classified as plane with prob. 0.26372846961021423
+Hey, 524 is a plane classified as plane with prob. 0.25953933596611023
+Hey, 528 is a plane classified as plane with prob. 0.16282883286476135
+Hey, 533 is a plane classified as plane with prob. 0.19111967086791992
+Hey, 553 is a plane classified as plane with prob. 0.22768406569957733
+Hey, 568 is a plane classified as plane with prob. 0.2573055028915405
+Hey, 575 is a plane classified as plane with prob. 0.19203679263591766
+Hey, 596 is a plane classified as plane with prob. 0.30343928933143616
+Hey, 625 is a plane classified as plane with prob. 0.296284943819046
+Hey, 653 is a plane classified as plane with prob. 0.2843815088272095
+Hey, 737 is a plane classified as plane with prob. 0.20636214315891266
+Hey, 763 is a plane classified as plane with prob. 0.1650395542383194
+Hey, 811 is a plane classified as plane with prob. 0.21799495816230774
+Hey, 908 is a plane classified as plane with prob. 0.2514954209327698
+Hey, 920 is a plane classified as plane with prob. 0.2017441838979721
+Hey, 971 is a plane classified as plane with prob. 0.15716783702373505
+Hey, 1019 is a plane classified as plane with prob. 0.22309525310993195
+Hey, 1120 is a plane classified as plane with prob. 0.21195343136787415
+Hey, 1145 is a plane classified as plane with prob. 0.21895578503608704
+Hey, 1182 is a plane classified as plane with prob. 0.29475170373916626
+Hey, 1208 is a ship classified as plane with prob. 0.15690115094184875
+Hey, 1214 is a plane classified as plane with prob. 0.20956122875213623
+Hey, 1222 is a plane classified as plane with prob. 0.2017853558063507
+Hey, 1233 is a plane classified as plane with prob. 0.19301432371139526
+Hey, 1341 is a plane classified as plane with prob. 0.2165331393480301
+Hey, 1362 is a plane classified as plane with prob. 0.24239453673362732
+Hey, 1377 is a plane classified as plane with prob. 0.25916823744773865
+Hey, 1503 is a plane classified as plane with prob. 0.2034239023923874
+Hey, 1574 is a plane classified as plane with prob. 0.21181735396385193
+Hey, 1594 is a plane classified as plane with prob. 0.2951226830482483
+Hey, 1647 is a ship classified as plane with prob. 0.15055795013904572
+Hey, 1678 is a plane classified as plane with prob. 0.2736736536026001
+Hey, 1753 is a plane classified as plane with prob. 0.27551791071891785
+Hey, 1770 is a plane classified as plane with prob. 0.1930524706840515
+Hey, 1775 is a plane classified as plane with prob. 0.16952946782112122
+Hey, 1850 is a plane classified as plane with prob. 0.18886497616767883
+Hey, 1861 is a plane classified as plane with prob. 0.15418241918087006
+Hey, 1936 is a plane classified as plane with prob. 0.16372214257717133
+Hey, 1946 is a plane classified as plane with prob. 0.15135833621025085
+Hey, 1948 is a plane classified as plane with prob. 0.2094658762216568
+Hey, 1950 is a plane classified as plane with prob. 0.17610976099967957
+Hey, 2009 is a plane classified as plane with prob. 0.1807183027267456
+Hey, 2032 is a plane classified as plane with prob. 0.17999114096164703
+Hey, 2143 is a plane classified as plane with prob. 0.20551778376102448
+Hey, 2179 is a plane classified as plane with prob. 0.15521985292434692
+Hey, 2211 is a plane classified as plane with prob. 0.16718992590904236
+Hey, 2277 is a plane classified as plane with prob. 0.17550529539585114
+Hey, 2296 is a plane classified as plane with prob. 0.2369111031293869
+Hey, 2303 is a plane classified as plane with prob. 0.15034107863903046
+Hey, 2316 is a plane classified as plane with prob. 0.3003080189228058
+Hey, 2484 is a plane classified as plane with prob. 0.21645015478134155
+Hey, 2508 is a plane classified as plane with prob. 0.17585864663124084
+Hey, 2513 is a plane classified as plane with prob. 0.2332552820444107
+Hey, 2554 is a plane classified as plane with prob. 0.16953730583190918
+Hey, 2571 is a plane classified as plane with prob. 0.1719665825366974
+Hey, 2607 is a plane classified as plane with prob. 0.24555262923240662
+Hey, 2624 is a plane classified as plane with prob. 0.1594066619873047
+Hey, 2627 is a plane classified as plane with prob. 0.17852959036827087
+Hey, 2654 is a plane classified as plane with prob. 0.15828651189804077
+Hey, 2676 is a plane classified as plane with prob. 0.277204692363739
+Hey, 2680 is a plane classified as plane with prob. 0.17772209644317627
+Hey, 2688 is a plane classified as plane with prob. 0.16675704717636108
+Hey, 2705 is a plane classified as plane with prob. 0.23339948058128357
+Hey, 2735 is a ship classified as plane with prob. 0.2792150378227234
+Hey, 2849 is a plane classified as plane with prob. 0.20981326699256897
+Hey, 2942 is a plane classified as plane with prob. 0.24580976366996765
+Hey, 2965 is a plane classified as plane with prob. 0.16974502801895142
+Hey, 3022 is a plane classified as plane with prob. 0.17340780794620514
+Hey, 3044 is a plane classified as plane with prob. 0.1743444949388504
+Hey, 3058 is a plane classified as plane with prob. 0.16388049721717834
+Hey, 3060 is a plane classified as plane with prob. 0.1944325864315033
+Hey, 3175 is a plane classified as plane with prob. 0.15008848905563354
+Hey, 3245 is a plane classified as plane with prob. 0.18568357825279236
+Hey, 3258 is a bird classified as plane with prob. 0.21084970235824585
+Hey, 3361 is a plane classified as plane with prob. 0.2044113576412201
+Hey, 3382 is a horse classified as plane with prob. 0.1934107095003128
+Hey, 3452 is a plane classified as plane with prob. 0.16980130970478058
+Hey, 3477 is a plane classified as plane with prob. 0.180262491106987
+Hey, 3510 is a plane classified as plane with prob. 0.16358986496925354
+Hey, 3591 is a plane classified as plane with prob. 0.1736864596605301
+Hey, 3616 is a plane classified as plane with prob. 0.2976107597351074
+Hey, 3658 is a plane classified as plane with prob. 0.1770070642232895
+Hey, 3669 is a plane classified as plane with prob. 0.2530311644077301
+Hey, 3719 is a plane classified as plane with prob. 0.3343068063259125
+Hey, 3725 is a plane classified as plane with prob. 0.20573394000530243
+Hey, 3726 is a plane classified as plane with prob. 0.1758696734905243
+Hey, 3791 is a plane classified as plane with prob. 0.2188035100698471
+Hey, 3818 is a plane classified as plane with prob. 0.260292112827301
+Hey, 3842 is a plane classified as plane with prob. 0.20091350376605988
+Hey, 3861 is a plane classified as plane with prob. 0.22845999896526337
+Hey, 3891 is a plane classified as plane with prob. 0.15010841190814972
+Hey, 3910 is a plane classified as plane with prob. 0.21549047529697418
+Hey, 3912 is a plane classified as plane with prob. 0.25767603516578674
+Hey, 3921 is a plane classified as plane with prob. 0.17608416080474854
+Hey, 3931 is a plane classified as plane with prob. 0.21229398250579834
+Hey, 3951 is a plane classified as plane with prob. 0.19633838534355164
+Hey, 4019 is a plane classified as plane with prob. 0.2211918979883194
+Hey, 4042 is a plane classified as plane with prob. 0.23682458698749542
+Hey, 4081 is a plane classified as plane with prob. 0.25776728987693787
+Hey, 4082 is a plane classified as plane with prob. 0.2793988585472107
+Hey, 4089 is a plane classified as plane with prob. 0.27724212408065796
+Hey, 4139 is a plane classified as plane with prob. 0.15157689154148102
+Hey, 4144 is a plane classified as plane with prob. 0.18825753033161163
+Hey, 4159 is a plane classified as plane with prob. 0.23061434924602509
+Hey, 4174 is a plane classified as plane with prob. 0.15411290526390076
+Hey, 4238 is a plane classified as plane with prob. 0.23890523612499237
+Hey, 4244 is a plane classified as plane with prob. 0.22859948873519897
+Hey, 4255 is a plane classified as plane with prob. 0.2782960534095764
+Hey, 4256 is a plane classified as plane with prob. 0.21012790501117706
+Hey, 4281 is a plane classified as plane with prob. 0.1660594642162323
+Hey, 4307 is a plane classified as plane with prob. 0.2109925001859665
+Hey, 4320 is a plane classified as plane with prob. 0.22273999452590942
+Hey, 4474 is a plane classified as plane with prob. 0.16578415036201477
+Hey, 4526 is a plane classified as plane with prob. 0.2967376708984375
+Hey, 4544 is a plane classified as plane with prob. 0.20211932063102722
+Hey, 4562 is a plane classified as plane with prob. 0.15236583352088928
+Hey, 4570 is a plane classified as plane with prob. 0.1655730903148651
+Hey, 4578 is a plane classified as plane with prob. 0.16147245466709137
+Hey, 4604 is a plane classified as plane with prob. 0.20542223751544952
+Hey, 4612 is a plane classified as plane with prob. 0.28890150785446167
+Hey, 4648 is a plane classified as plane with prob. 0.2463187575340271
+Hey, 4671 is a plane classified as plane with prob. 0.22371630370616913
+Hey, 4700 is a plane classified as plane with prob. 0.20263147354125977
+Hey, 4715 is a plane classified as plane with prob. 0.18018442392349243
+Hey, 4737 is a plane classified as plane with prob. 0.21519877016544342
+Hey, 4739 is a plane classified as plane with prob. 0.2530262768268585
+Hey, 4771 is a plane classified as plane with prob. 0.2792971730232239
+Hey, 4858 is a plane classified as plane with prob. 0.20999011397361755
+Hey, 4867 is a plane classified as plane with prob. 0.24528756737709045
+Hey, 4952 is a plane classified as plane with prob. 0.185889333486557
+Hey, 4960 is a plane classified as plane with prob. 0.24308741092681885
+Hey, 4974 is a plane classified as plane with prob. 0.27861329913139343
+Hey, 4996 is a plane classified as plane with prob. 0.23936937749385834
+Hey, 4999 is a plane classified as plane with prob. 0.23250944912433624
+optimizing class horse
+nothing to correct
+optimizing class ship
+nothing to correct
+corrected 145 labels
+label learning epoch 1 for learning 4855 labels
+partial label learning epoch 0
+[1,   100] loss: 0.020
+[1,   200] loss: 0.020
+[1,   300] loss: 0.021
+[1,   400] loss: 0.021
+[1,   500] loss: 0.020
+partial label learning epoch 1
+[2,   100] loss: 0.020
+[2,   200] loss: 0.021
+[2,   300] loss: 0.020
+[2,   400] loss: 0.021
+[2,   500] loss: 0.021
+partial label learning epoch 2
+[3,   100] loss: 0.021
+[3,   200] loss: 0.021
+[3,   300] loss: 0.020
+[3,   400] loss: 0.020
+[3,   500] loss: 0.021
+partial label learning epoch 3
+[4,   100] loss: 0.021
+[4,   200] loss: 0.020
+[4,   300] loss: 0.021
+[4,   400] loss: 0.021
+[4,   500] loss: 0.020
+partial label learning epoch 4
+[5,   100] loss: 0.021
+[5,   200] loss: 0.020
+[5,   300] loss: 0.021
+[5,   400] loss: 0.021
+[5,   500] loss: 0.021
+partial label learning epoch 5
+[6,   100] loss: 0.020
+[6,   200] loss: 0.021
+[6,   300] loss: 0.021
+[6,   400] loss: 0.020
+[6,   500] loss: 0.020
+partial label learning epoch 6
+[7,   100] loss: 0.020
+[7,   200] loss: 0.020
+[7,   300] loss: 0.021
+[7,   400] loss: 0.021
+[7,   500] loss: 0.020
+partial label learning epoch 7
+[8,   100] loss: 0.020
+[8,   200] loss: 0.020
+[8,   300] loss: 0.020
+[8,   400] loss: 0.021
+[8,   500] loss: 0.021
+partial label learning epoch 8
+[9,   100] loss: 0.020
+[9,   200] loss: 0.020
+[9,   300] loss: 0.020
+[9,   400] loss: 0.021
+[9,   500] loss: 0.020
+partial label learning epoch 9
+[10,   100] loss: 0.020
+[10,   200] loss: 0.020
+[10,   300] loss: 0.020
+[10,   400] loss: 0.020
+[10,   500] loss: 0.020
+partial label learning epoch 10
+[11,   100] loss: 0.020
+[11,   200] loss: 0.019
+[11,   300] loss: 0.019
+[11,   400] loss: 0.019
+[11,   500] loss: 0.019
+partial label learning epoch 11
+[12,   100] loss: 0.019
+[12,   200] loss: 0.019
+[12,   300] loss: 0.019
+[12,   400] loss: 0.019
+[12,   500] loss: 0.019
+partial label learning epoch 12
+[13,   100] loss: 0.019
+[13,   200] loss: 0.019
+[13,   300] loss: 0.019
+[13,   400] loss: 0.019
+[13,   500] loss: 0.019
+partial label learning epoch 13
+[14,   100] loss: 0.019
+[14,   200] loss: 0.019
+[14,   300] loss: 0.019
+[14,   400] loss: 0.019
+[14,   500] loss: 0.019
+partial label learning epoch 14
+[15,   100] loss: 0.019
+[15,   200] loss: 0.019
+[15,   300] loss: 0.019
+[15,   400] loss: 0.019
+[15,   500] loss: 0.019
+partial label learning epoch 15
+[16,   100] loss: 0.019
+[16,   200] loss: 0.019
+[16,   300] loss: 0.019
+[16,   400] loss: 0.019
+[16,   500] loss: 0.019
+partial label learning epoch 16
+[17,   100] loss: 0.019
+[17,   200] loss: 0.019
+[17,   300] loss: 0.019
+[17,   400] loss: 0.019
+[17,   500] loss: 0.019
+partial label learning epoch 17
+[18,   100] loss: 0.019
+[18,   200] loss: 0.019
+[18,   300] loss: 0.019
+[18,   400] loss: 0.019
+[18,   500] loss: 0.019
+partial label learning epoch 18
+[19,   100] loss: 0.019
+[19,   200] loss: 0.019
+[19,   300] loss: 0.019
+[19,   400] loss: 0.019
+[19,   500] loss: 0.019
+partial label learning epoch 19
+[20,   100] loss: 0.019
+[20,   200] loss: 0.019
+[20,   300] loss: 0.019
+[20,   400] loss: 0.019
+[20,   500] loss: 0.019
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [381.0, 1.0, 0.0, 967.0, 0.0, 1.0, 0.0, 0.0, 520.0, 0.0]
+Accuracy of plane : 38.68020304568528%
+Accuracy of car : 0.0979431929480901%
+Accuracy of bird : 0.0%
+Accuracy of cat : 96.02780536246276%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.099601593625498%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.0%
+Accuracy of ship : 49.42965779467681%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 109 is a plane classified as plane with prob. 0.25496378540992737
+Hey, 200 is a plane classified as plane with prob. 0.23916158080101013
+Hey, 316 is a plane classified as plane with prob. 0.22898012399673462
+Hey, 402 is a plane classified as plane with prob. 0.16554510593414307
+Hey, 421 is a plane classified as plane with prob. 0.18938638269901276
+Hey, 433 is a plane classified as plane with prob. 0.16469064354896545
+Hey, 437 is a plane classified as plane with prob. 0.1686863899230957
+Hey, 535 is a plane classified as plane with prob. 0.19616171717643738
+Hey, 564 is a plane classified as plane with prob. 0.22824519872665405
+Hey, 572 is a plane classified as plane with prob. 0.2304995208978653
+Hey, 627 is a plane classified as plane with prob. 0.18139782547950745
+Hey, 664 is a plane classified as plane with prob. 0.16344453394412994
+Hey, 672 is a plane classified as plane with prob. 0.20199358463287354
+Hey, 700 is a plane classified as plane with prob. 0.24571382999420166
+Hey, 820 is a plane classified as plane with prob. 0.18077917397022247
+Hey, 898 is a plane classified as plane with prob. 0.235091432929039
+Hey, 953 is a plane classified as plane with prob. 0.2248648852109909
+Hey, 1101 is a plane classified as plane with prob. 0.23492595553398132
+Hey, 1138 is a plane classified as plane with prob. 0.2286253720521927
+Hey, 1155 is a plane classified as plane with prob. 0.21616601943969727
+Hey, 1170 is a plane classified as plane with prob. 0.19972515106201172
+Hey, 1227 is a plane classified as plane with prob. 0.16278666257858276
+Hey, 1283 is a ship classified as plane with prob. 0.23479360342025757
+Hey, 1290 is a plane classified as plane with prob. 0.2378062605857849
+Hey, 1309 is a plane classified as plane with prob. 0.23643992841243744
+Hey, 1333 is a plane classified as plane with prob. 0.16380400955677032
+Hey, 1382 is a plane classified as plane with prob. 0.2335180640220642
+Hey, 1460 is a plane classified as plane with prob. 0.23016811907291412
+Hey, 1473 is a plane classified as plane with prob. 0.2370249330997467
+Hey, 1477 is a deer classified as plane with prob. 0.15341278910636902
+Hey, 1682 is a deer classified as plane with prob. 0.21805338561534882
+Hey, 1683 is a plane classified as plane with prob. 0.2272469848394394
+Hey, 1699 is a plane classified as plane with prob. 0.1858058124780655
+Hey, 1716 is a plane classified as plane with prob. 0.21513505280017853
+Hey, 1840 is a plane classified as plane with prob. 0.23357388377189636
+Hey, 2040 is a plane classified as plane with prob. 0.24628768861293793
+Hey, 2044 is a car classified as plane with prob. 0.21757571399211884
+Hey, 2101 is a truck classified as plane with prob. 0.22271013259887695
+Hey, 2181 is a plane classified as plane with prob. 0.15909147262573242
+Hey, 2187 is a plane classified as plane with prob. 0.2109074592590332
+Hey, 2205 is a plane classified as plane with prob. 0.23281671106815338
+Hey, 2240 is a plane classified as plane with prob. 0.2096806913614273
+Hey, 2279 is a plane classified as plane with prob. 0.23388245701789856
+Hey, 2348 is a plane classified as plane with prob. 0.23962491750717163
+Hey, 2512 is a ship classified as plane with prob. 0.2228861153125763
+Hey, 2529 is a plane classified as plane with prob. 0.23422031104564667
+Hey, 2565 is a plane classified as plane with prob. 0.2471799999475479
+Hey, 2580 is a plane classified as plane with prob. 0.17372363805770874
+Hey, 2699 is a plane classified as plane with prob. 0.15315958857536316
+Hey, 2836 is a plane classified as plane with prob. 0.23444536328315735
+Hey, 2848 is a bird classified as plane with prob. 0.20346713066101074
+Hey, 2895 is a plane classified as plane with prob. 0.23571927845478058
+Hey, 2946 is a plane classified as plane with prob. 0.22651715576648712
+Hey, 2963 is a plane classified as plane with prob. 0.23562663793563843
+Hey, 3003 is a plane classified as plane with prob. 0.1916273832321167
+Hey, 3142 is a plane classified as plane with prob. 0.22634504735469818
+Hey, 3194 is a plane classified as plane with prob. 0.2391635775566101
+Hey, 3259 is a plane classified as plane with prob. 0.17747588455677032
+Hey, 3260 is a horse classified as plane with prob. 0.2395143210887909
+Hey, 3261 is a plane classified as plane with prob. 0.1837407350540161
+Hey, 3272 is a plane classified as plane with prob. 0.24131201207637787
+Hey, 3321 is a plane classified as plane with prob. 0.2159702181816101
+Hey, 3322 is a plane classified as plane with prob. 0.2201375514268875
+Hey, 3417 is a plane classified as plane with prob. 0.20994235575199127
+Hey, 3425 is a plane classified as plane with prob. 0.22927597165107727
+Hey, 3515 is a plane classified as plane with prob. 0.15783467888832092
+Hey, 3569 is a plane classified as plane with prob. 0.23041871190071106
+Hey, 3595 is a plane classified as plane with prob. 0.2054208368062973
+Hey, 3629 is a plane classified as plane with prob. 0.2213670313358307
+Hey, 3647 is a plane classified as plane with prob. 0.23072703182697296
+Hey, 3761 is a horse classified as plane with prob. 0.192693293094635
+Hey, 3923 is a plane classified as plane with prob. 0.1969039887189865
+Hey, 3962 is a plane classified as plane with prob. 0.24167786538600922
+Hey, 4014 is a frog classified as plane with prob. 0.19593124091625214
+Hey, 4023 is a plane classified as plane with prob. 0.22948862612247467
+Hey, 4115 is a plane classified as plane with prob. 0.2451472133398056
+Hey, 4173 is a plane classified as plane with prob. 0.23414795100688934
+Hey, 4253 is a plane classified as plane with prob. 0.20451444387435913
+Hey, 4284 is a plane classified as plane with prob. 0.21065418422222137
+Hey, 4440 is a plane classified as plane with prob. 0.16146719455718994
+Hey, 4465 is a plane classified as plane with prob. 0.16567844152450562
+Hey, 4505 is a plane classified as plane with prob. 0.1734643429517746
+Hey, 4618 is a plane classified as plane with prob. 0.2396787852048874
+Hey, 4695 is a plane classified as plane with prob. 0.2340320199728012
+Hey, 4704 is a plane classified as plane with prob. 0.22697685658931732
+Hey, 4741 is a plane classified as plane with prob. 0.26356151700019836
+Hey, 4752 is a plane classified as plane with prob. 0.15182837843894958
+Hey, 4800 is a plane classified as plane with prob. 0.23041370511054993
+Hey, 4813 is a plane classified as plane with prob. 0.23062555491924286
+Hey, 4995 is a plane classified as plane with prob. 0.23420634865760803
+nothing to correct
+optimizing class cat
+nothing to correct
+optimizing class ship
+Hey, 54 is a ship classified as ship with prob. 0.20541153848171234
+Hey, 102 is a ship classified as ship with prob. 0.18324904143810272
+Hey, 104 is a ship classified as ship with prob. 0.21402327716350555
+Hey, 140 is a ship classified as ship with prob. 0.1684257537126541
+Hey, 141 is a plane classified as ship with prob. 0.15558300912380219
+Hey, 163 is a ship classified as ship with prob. 0.2083139419555664
+Hey, 165 is a ship classified as ship with prob. 0.22879286110401154
+Hey, 214 is a ship classified as ship with prob. 0.2050981968641281
+Hey, 230 is a ship classified as ship with prob. 0.20652273297309875
+Hey, 237 is a ship classified as ship with prob. 0.25442877411842346
+Hey, 248 is a ship classified as ship with prob. 0.20126035809516907
+Hey, 333 is a ship classified as ship with prob. 0.2345535308122635
+Hey, 351 is a ship classified as ship with prob. 0.18854497373104095
+Hey, 387 is a ship classified as ship with prob. 0.15727171301841736
+Hey, 414 is a ship classified as ship with prob. 0.18261419236660004
+Hey, 428 is a bird classified as ship with prob. 0.2263466715812683
+Hey, 429 is a ship classified as ship with prob. 0.23234844207763672
+Hey, 450 is a ship classified as ship with prob. 0.3071599006652832
+Hey, 453 is a ship classified as ship with prob. 0.2535582184791565
+Hey, 484 is a ship classified as ship with prob. 0.22817054390907288
+Hey, 497 is a ship classified as ship with prob. 0.15640084445476532
+Hey, 542 is a ship classified as ship with prob. 0.19285044074058533
+Hey, 566 is a ship classified as ship with prob. 0.2715248167514801
+Hey, 604 is a ship classified as ship with prob. 0.19580259919166565
+Hey, 666 is a ship classified as ship with prob. 0.22327114641666412
+Hey, 708 is a ship classified as ship with prob. 0.24282047152519226
+Hey, 761 is a ship classified as ship with prob. 0.17120803892612457
+Hey, 814 is a ship classified as ship with prob. 0.2327565848827362
+Hey, 834 is a ship classified as ship with prob. 0.19615519046783447
+Hey, 861 is a ship classified as ship with prob. 0.16959263384342194
+Hey, 871 is a ship classified as ship with prob. 0.16773781180381775
+Hey, 872 is a ship classified as ship with prob. 0.16599692404270172
+Hey, 912 is a ship classified as ship with prob. 0.18481174111366272
+Hey, 935 is a ship classified as ship with prob. 0.192791149020195
+Hey, 956 is a ship classified as ship with prob. 0.25290340185165405
+Hey, 957 is a car classified as ship with prob. 0.20142847299575806
+Hey, 965 is a ship classified as ship with prob. 0.19170206785202026
+Hey, 978 is a plane classified as ship with prob. 0.16854876279830933
+Hey, 979 is a ship classified as ship with prob. 0.24694843590259552
+Hey, 991 is a ship classified as ship with prob. 0.16755953431129456
+Hey, 993 is a ship classified as ship with prob. 0.1647329479455948
+Hey, 1053 is a ship classified as ship with prob. 0.1890876591205597
+Hey, 1084 is a ship classified as ship with prob. 0.18548674881458282
+Hey, 1110 is a ship classified as ship with prob. 0.17789341509342194
+Hey, 1111 is a truck classified as ship with prob. 0.19417211413383484
+Hey, 1142 is a ship classified as ship with prob. 0.16632309556007385
+Hey, 1173 is a ship classified as ship with prob. 0.18599936366081238
+Hey, 1175 is a ship classified as ship with prob. 0.17935018241405487
+Hey, 1183 is a ship classified as ship with prob. 0.17268633842468262
+Hey, 1193 is a ship classified as ship with prob. 0.1588645577430725
+Hey, 1203 is a ship classified as ship with prob. 0.2873276472091675
+Hey, 1235 is a ship classified as ship with prob. 0.15437334775924683
+Hey, 1269 is a ship classified as ship with prob. 0.1795710176229477
+Hey, 1281 is a ship classified as ship with prob. 0.22752274572849274
+Hey, 1294 is a ship classified as ship with prob. 0.27890318632125854
+Hey, 1315 is a ship classified as ship with prob. 0.18148721754550934
+Hey, 1326 is a ship classified as ship with prob. 0.18988849222660065
+Hey, 1408 is a ship classified as ship with prob. 0.21107187867164612
+Hey, 1414 is a ship classified as ship with prob. 0.2087901532649994
+Hey, 1422 is a ship classified as ship with prob. 0.18461893498897552
+Hey, 1449 is a ship classified as ship with prob. 0.1831655204296112
+Hey, 1458 is a ship classified as ship with prob. 0.15938109159469604
+Hey, 1500 is a ship classified as ship with prob. 0.1763465851545334
+Hey, 1519 is a ship classified as ship with prob. 0.2016173154115677
+Hey, 1542 is a ship classified as ship with prob. 0.24314264953136444
+Hey, 1544 is a ship classified as ship with prob. 0.16253161430358887
+Hey, 1560 is a ship classified as ship with prob. 0.21501697599887848
+Hey, 1572 is a cat classified as ship with prob. 0.16827651858329773
+Hey, 1627 is a ship classified as ship with prob. 0.2352260798215866
+Hey, 1643 is a ship classified as ship with prob. 0.36449819803237915
+Hey, 1668 is a ship classified as ship with prob. 0.22408795356750488
+Hey, 1714 is a ship classified as ship with prob. 0.1593448519706726
+Hey, 1721 is a ship classified as ship with prob. 0.1654161810874939
+Hey, 1725 is a ship classified as ship with prob. 0.16385214030742645
+Hey, 1732 is a ship classified as ship with prob. 0.167355477809906
+Hey, 1783 is a ship classified as ship with prob. 0.20947296917438507
+Hey, 1797 is a ship classified as ship with prob. 0.22172696888446808
+Hey, 1810 is a ship classified as ship with prob. 0.28231820464134216
+Hey, 1812 is a ship classified as ship with prob. 0.24692609906196594
+Hey, 1825 is a ship classified as ship with prob. 0.19330458343029022
+Hey, 1869 is a ship classified as ship with prob. 0.23942171037197113
+Hey, 1893 is a ship classified as ship with prob. 0.17345263063907623
+Hey, 1901 is a ship classified as ship with prob. 0.2236955463886261
+Hey, 1947 is a ship classified as ship with prob. 0.2210235595703125
+Hey, 1951 is a ship classified as ship with prob. 0.1960781365633011
+Hey, 1977 is a ship classified as ship with prob. 0.20374296605587006
+Hey, 1980 is a ship classified as ship with prob. 0.2378934919834137
+Hey, 1986 is a ship classified as ship with prob. 0.20556826889514923
+Hey, 2020 is a ship classified as ship with prob. 0.15925264358520508
+Hey, 2050 is a ship classified as ship with prob. 0.2364330291748047
+Hey, 2059 is a ship classified as ship with prob. 0.177956685423851
+Hey, 2061 is a ship classified as ship with prob. 0.16329772770404816
+Hey, 2067 is a ship classified as ship with prob. 0.19797471165657043
+Hey, 2114 is a ship classified as ship with prob. 0.20440934598445892
+Hey, 2131 is a ship classified as ship with prob. 0.23827216029167175
+Hey, 2136 is a ship classified as ship with prob. 0.1886279582977295
+Hey, 2191 is a ship classified as ship with prob. 0.1960042119026184
+Hey, 2206 is a ship classified as ship with prob. 0.21819336712360382
+Hey, 2233 is a ship classified as ship with prob. 0.20254431664943695
+Hey, 2245 is a ship classified as ship with prob. 0.3711870610713959
+Hey, 2256 is a ship classified as ship with prob. 0.25159603357315063
+Hey, 2292 is a ship classified as ship with prob. 0.21108029782772064
+Hey, 2312 is a ship classified as ship with prob. 0.30416804552078247
+Hey, 2350 is a ship classified as ship with prob. 0.1599573791027069
+Hey, 2374 is a ship classified as ship with prob. 0.20217058062553406
+Hey, 2395 is a ship classified as ship with prob. 0.19887368381023407
+Hey, 2419 is a ship classified as ship with prob. 0.1643204391002655
+Hey, 2455 is a ship classified as ship with prob. 0.2798929214477539
+Hey, 2517 is a ship classified as ship with prob. 0.23804636299610138
+Hey, 2528 is a ship classified as ship with prob. 0.1604209989309311
+Hey, 2537 is a ship classified as ship with prob. 0.15373626351356506
+Hey, 2588 is a ship classified as ship with prob. 0.24597764015197754
+Hey, 2640 is a ship classified as ship with prob. 0.27928394079208374
+Hey, 2675 is a ship classified as ship with prob. 0.20216576755046844
+Hey, 2684 is a ship classified as ship with prob. 0.23632994294166565
+Hey, 2721 is a ship classified as ship with prob. 0.16970601677894592
+Hey, 2727 is a ship classified as ship with prob. 0.20498035848140717
+Hey, 2730 is a ship classified as ship with prob. 0.18947215378284454
+Hey, 2733 is a ship classified as ship with prob. 0.21256117522716522
+Hey, 2741 is a ship classified as ship with prob. 0.25356894731521606
+Hey, 2797 is a ship classified as ship with prob. 0.1594325304031372
+Hey, 2800 is a ship classified as ship with prob. 0.1576109379529953
+Hey, 2817 is a ship classified as ship with prob. 0.24617409706115723
+Hey, 2827 is a ship classified as ship with prob. 0.21905399858951569
+Hey, 2886 is a ship classified as ship with prob. 0.19202357530593872
+Hey, 2902 is a ship classified as ship with prob. 0.23531922698020935
+Hey, 2916 is a ship classified as ship with prob. 0.2727530598640442
+Hey, 2931 is a ship classified as ship with prob. 0.24785076081752777
+Hey, 2933 is a ship classified as ship with prob. 0.23444999754428864
+Hey, 2958 is a plane classified as ship with prob. 0.151159405708313
+Hey, 2959 is a ship classified as ship with prob. 0.3099561631679535
+Hey, 2976 is a ship classified as ship with prob. 0.2233176976442337
+Hey, 3004 is a ship classified as ship with prob. 0.15726616978645325
+Hey, 3049 is a ship classified as ship with prob. 0.20238587260246277
+Hey, 3084 is a ship classified as ship with prob. 0.2550044059753418
+Hey, 3110 is a ship classified as ship with prob. 0.19403278827667236
+Hey, 3112 is a ship classified as ship with prob. 0.19496499001979828
+Hey, 3160 is a ship classified as ship with prob. 0.17971889674663544
+Hey, 3162 is a ship classified as ship with prob. 0.20741836726665497
+Hey, 3234 is a ship classified as ship with prob. 0.17425459623336792
+Hey, 3251 is a ship classified as ship with prob. 0.2626001834869385
+Hey, 3257 is a ship classified as ship with prob. 0.28399667143821716
+Hey, 3309 is a ship classified as ship with prob. 0.2235998511314392
+Hey, 3338 is a ship classified as ship with prob. 0.19777297973632812
+Hey, 3339 is a truck classified as ship with prob. 0.15401485562324524
+Hey, 3375 is a ship classified as ship with prob. 0.15662284195423126
+Hey, 3380 is a ship classified as ship with prob. 0.17924824357032776
+Hey, 3398 is a ship classified as ship with prob. 0.2159525603055954
+Hey, 3400 is a horse classified as ship with prob. 0.24541394412517548
+Hey, 3403 is a ship classified as ship with prob. 0.2216130793094635
+Hey, 3411 is a ship classified as ship with prob. 0.22702811658382416
+Hey, 3422 is a ship classified as ship with prob. 0.2600939869880676
+Hey, 3459 is a ship classified as ship with prob. 0.21129827201366425
+Hey, 3465 is a ship classified as ship with prob. 0.16111727058887482
+Hey, 3487 is a ship classified as ship with prob. 0.17972613871097565
+Hey, 3505 is a ship classified as ship with prob. 0.20750276744365692
+Hey, 3568 is a ship classified as ship with prob. 0.1936330497264862
+Hey, 3610 is a ship classified as ship with prob. 0.23369434475898743
+Hey, 3613 is a ship classified as ship with prob. 0.21161538362503052
+Hey, 3650 is a ship classified as ship with prob. 0.17859455943107605
+Hey, 3686 is a ship classified as ship with prob. 0.2500866949558258
+Hey, 3773 is a ship classified as ship with prob. 0.23734267055988312
+Hey, 3780 is a ship classified as ship with prob. 0.20236001908779144
+Hey, 3807 is a ship classified as ship with prob. 0.24172662198543549
+Hey, 3821 is a ship classified as ship with prob. 0.1898897886276245
+Hey, 3835 is a ship classified as ship with prob. 0.2062133401632309
+Hey, 3840 is a ship classified as ship with prob. 0.1777232587337494
+Hey, 3885 is a ship classified as ship with prob. 0.20846785604953766
+Hey, 3903 is a ship classified as ship with prob. 0.21258772909641266
+Hey, 3924 is a ship classified as ship with prob. 0.15206454694271088
+Hey, 3939 is a ship classified as ship with prob. 0.19467994570732117
+Hey, 3941 is a ship classified as ship with prob. 0.2445247322320938
+Hey, 3943 is a ship classified as ship with prob. 0.15156292915344238
+Hey, 3948 is a ship classified as ship with prob. 0.23975145816802979
+Hey, 3949 is a truck classified as ship with prob. 0.15632504224777222
+Hey, 3987 is a ship classified as ship with prob. 0.22537778317928314
+Hey, 3993 is a ship classified as ship with prob. 0.16760489344596863
+Hey, 4000 is a ship classified as ship with prob. 0.18668492138385773
+Hey, 4030 is a ship classified as ship with prob. 0.2436281442642212
+Hey, 4080 is a ship classified as ship with prob. 0.1581636220216751
+Hey, 4086 is a ship classified as ship with prob. 0.3365973234176636
+Hey, 4091 is a ship classified as ship with prob. 0.23858338594436646
+Hey, 4121 is a ship classified as ship with prob. 0.15101148188114166
+Hey, 4130 is a ship classified as ship with prob. 0.20545965433120728
+Hey, 4136 is a ship classified as ship with prob. 0.18008725345134735
+Hey, 4179 is a ship classified as ship with prob. 0.15588904917240143
+Hey, 4198 is a ship classified as ship with prob. 0.1719830185174942
+Hey, 4217 is a ship classified as ship with prob. 0.2008773237466812
+Hey, 4246 is a ship classified as ship with prob. 0.2170913815498352
+Hey, 4249 is a ship classified as ship with prob. 0.22564613819122314
+Hey, 4267 is a ship classified as ship with prob. 0.22315165400505066
+Hey, 4299 is a ship classified as ship with prob. 0.15337084233760834
+Hey, 4329 is a ship classified as ship with prob. 0.20582248270511627
+Hey, 4372 is a ship classified as ship with prob. 0.21409961581230164
+Hey, 4391 is a ship classified as ship with prob. 0.22168511152267456
+Hey, 4432 is a ship classified as ship with prob. 0.29089438915252686
+Hey, 4442 is a ship classified as ship with prob. 0.2677207291126251
+Hey, 4448 is a ship classified as ship with prob. 0.16890546679496765
+Hey, 4459 is a ship classified as ship with prob. 0.21268871426582336
+Hey, 4477 is a ship classified as ship with prob. 0.205331489443779
+Hey, 4494 is a ship classified as ship with prob. 0.21308252215385437
+Hey, 4556 is a ship classified as ship with prob. 0.234558567404747
+Hey, 4585 is a ship classified as ship with prob. 0.2638627588748932
+Hey, 4588 is a ship classified as ship with prob. 0.23391754925251007
+Hey, 4623 is a ship classified as ship with prob. 0.17196184396743774
+Hey, 4662 is a ship classified as ship with prob. 0.19795545935630798
+Hey, 4680 is a ship classified as ship with prob. 0.2011469006538391
+Hey, 4763 is a ship classified as ship with prob. 0.21005158126354218
+Hey, 4777 is a ship classified as ship with prob. 0.2224157601594925
+Hey, 4779 is a ship classified as ship with prob. 0.23916475474834442
+Hey, 4803 is a ship classified as ship with prob. 0.2065289169549942
+Hey, 4806 is a ship classified as ship with prob. 0.25961339473724365
+Hey, 4827 is a ship classified as ship with prob. 0.19546742737293243
+Hey, 4836 is a ship classified as ship with prob. 0.20405639708042145
+Hey, 4927 is a ship classified as ship with prob. 0.16369017958641052
+Hey, 4936 is a ship classified as ship with prob. 0.18873265385627747
+Hey, 4939 is a ship classified as ship with prob. 0.2078329473733902
+Hey, 4963 is a ship classified as ship with prob. 0.21090766787528992
+Hey, 4979 is a ship classified as ship with prob. 0.16361157596111298
+Hey, 4984 is a ship classified as ship with prob. 0.22538889944553375
+nothing to correct
+corrected 310 labels
+label learning epoch 2 for learning 4545 labels
+partial label learning epoch 0
+[1,   100] loss: 0.019
+[1,   200] loss: 0.020
+[1,   300] loss: 0.020
+[1,   400] loss: 0.020
+[1,   500] loss: 0.020
+partial label learning epoch 1
+[2,   100] loss: 0.020
+[2,   200] loss: 0.020
+[2,   300] loss: 0.020
+[2,   400] loss: 0.020
+[2,   500] loss: 0.020
+partial label learning epoch 2
+[3,   100] loss: 0.019
+[3,   200] loss: 0.020
+[3,   300] loss: 0.020
+[3,   400] loss: 0.020
+[3,   500] loss: 0.020
+partial label learning epoch 3
+[4,   100] loss: 0.019
+[4,   200] loss: 0.020
+[4,   300] loss: 0.020
+[4,   400] loss: 0.020
+[4,   500] loss: 0.019
+partial label learning epoch 4
+[5,   100] loss: 0.019
+[5,   200] loss: 0.020
+[5,   300] loss: 0.019
+[5,   400] loss: 0.019
+[5,   500] loss: 0.020
+partial label learning epoch 5
+[6,   100] loss: 0.020
+[6,   200] loss: 0.020
+[6,   300] loss: 0.020
+[6,   400] loss: 0.020
+[6,   500] loss: 0.019
+partial label learning epoch 6
+[7,   100] loss: 0.019
+[7,   200] loss: 0.020
+[7,   300] loss: 0.019
+[7,   400] loss: 0.020
+[7,   500] loss: 0.020
+partial label learning epoch 7
+[8,   100] loss: 0.019
+[8,   200] loss: 0.019
+[8,   300] loss: 0.019
+[8,   400] loss: 0.020
+[8,   500] loss: 0.020
+partial label learning epoch 8
+[9,   100] loss: 0.020
+[9,   200] loss: 0.019
+[9,   300] loss: 0.019
+[9,   400] loss: 0.019
+[9,   500] loss: 0.020
+partial label learning epoch 9
+[10,   100] loss: 0.019
+[10,   200] loss: 0.019
+[10,   300] loss: 0.019
+[10,   400] loss: 0.020
+[10,   500] loss: 0.020
+partial label learning epoch 10
+[11,   100] loss: 0.018
+[11,   200] loss: 0.018
+[11,   300] loss: 0.019
+[11,   400] loss: 0.019
+[11,   500] loss: 0.018
+partial label learning epoch 11
+[12,   100] loss: 0.019
+[12,   200] loss: 0.018
+[12,   300] loss: 0.018
+[12,   400] loss: 0.018
+[12,   500] loss: 0.018
+partial label learning epoch 12
+[13,   100] loss: 0.018
+[13,   200] loss: 0.018
+[13,   300] loss: 0.018
+[13,   400] loss: 0.018
+[13,   500] loss: 0.018
+partial label learning epoch 13
+[14,   100] loss: 0.018
+[14,   200] loss: 0.018
+[14,   300] loss: 0.018
+[14,   400] loss: 0.018
+[14,   500] loss: 0.018
+partial label learning epoch 14
+[15,   100] loss: 0.018
+[15,   200] loss: 0.018
+[15,   300] loss: 0.018
+[15,   400] loss: 0.018
+[15,   500] loss: 0.018
+partial label learning epoch 15
+[16,   100] loss: 0.018
+[16,   200] loss: 0.018
+[16,   300] loss: 0.018
+[16,   400] loss: 0.018
+[16,   500] loss: 0.018
+partial label learning epoch 16
+[17,   100] loss: 0.019
+[17,   200] loss: 0.018
+[17,   300] loss: 0.018
+[17,   400] loss: 0.018
+[17,   500] loss: 0.018
+partial label learning epoch 17
+[18,   100] loss: 0.018
+[18,   200] loss: 0.018
+[18,   300] loss: 0.018
+[18,   400] loss: 0.018
+[18,   500] loss: 0.018
+partial label learning epoch 18
+[19,   100] loss: 0.018
+[19,   200] loss: 0.018
+[19,   300] loss: 0.018
+[19,   400] loss: 0.018
+[19,   500] loss: 0.018
+partial label learning epoch 19
+[20,   100] loss: 0.018
+[20,   200] loss: 0.018
+[20,   300] loss: 0.018
+[20,   400] loss: 0.018
+[20,   500] loss: 0.018
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [414.0, 1.0, 5.0, 0.0, 0.0, 1.0, 0.0, 0.0, 591.0, 894.0]
+Accuracy of plane : 42.03045685279188%
+Accuracy of car : 0.0979431929480901%
+Accuracy of bird : 0.5040322580645161%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.099601593625498%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.0%
+Accuracy of ship : 56.1787072243346%
+Accuracy of truck : 88.51485148514851%
+optimizing class plane
+Hey, 99 is a plane classified as plane with prob. 0.23419436812400818
+Hey, 118 is a plane classified as plane with prob. 0.22705014050006866
+Hey, 136 is a plane classified as plane with prob. 0.23052896559238434
+Hey, 211 is a plane classified as plane with prob. 0.2416509985923767
+Hey, 259 is a plane classified as plane with prob. 0.23126612603664398
+Hey, 381 is a plane classified as plane with prob. 0.20964953303337097
+Hey, 412 is a plane classified as plane with prob. 0.1899331659078598
+Hey, 439 is a plane classified as plane with prob. 0.21005725860595703
+Hey, 462 is a plane classified as plane with prob. 0.2269527167081833
+Hey, 641 is a plane classified as plane with prob. 0.2220466285943985
+Hey, 644 is a plane classified as plane with prob. 0.17531941831111908
+Hey, 688 is a plane classified as plane with prob. 0.2307712584733963
+Hey, 868 is a plane classified as plane with prob. 0.2346917986869812
+Hey, 1147 is a plane classified as plane with prob. 0.22705717384815216
+Hey, 1209 is a plane classified as plane with prob. 0.2027297168970108
+Hey, 1282 is a plane classified as plane with prob. 0.1538115292787552
+Hey, 1307 is a plane classified as plane with prob. 0.21936248242855072
+Hey, 1327 is a plane classified as plane with prob. 0.21498191356658936
+Hey, 1694 is a plane classified as plane with prob. 0.23492960631847382
+Hey, 1750 is a plane classified as plane with prob. 0.22759830951690674
+Hey, 1799 is a plane classified as plane with prob. 0.2361152470111847
+Hey, 1847 is a plane classified as plane with prob. 0.23914244771003723
+Hey, 1892 is a plane classified as plane with prob. 0.18885454535484314
+Hey, 1928 is a plane classified as plane with prob. 0.23227576911449432
+Hey, 2042 is a plane classified as plane with prob. 0.23298245668411255
+Hey, 2198 is a plane classified as plane with prob. 0.2057407796382904
+Hey, 2259 is a plane classified as plane with prob. 0.23250645399093628
+Hey, 2426 is a plane classified as plane with prob. 0.2128017246723175
+Hey, 2457 is a plane classified as plane with prob. 0.23632659018039703
+Hey, 2564 is a cat classified as plane with prob. 0.21807833015918732
+Hey, 2610 is a plane classified as plane with prob. 0.23332975804805756
+Hey, 2708 is a plane classified as plane with prob. 0.1789771020412445
+Hey, 2725 is a plane classified as plane with prob. 0.23295293748378754
+Hey, 2729 is a plane classified as plane with prob. 0.21744544804096222
+Hey, 2754 is a plane classified as plane with prob. 0.20738431811332703
+Hey, 2777 is a plane classified as plane with prob. 0.2284780889749527
+Hey, 2798 is a plane classified as plane with prob. 0.2334126979112625
+Hey, 2977 is a plane classified as plane with prob. 0.22312873601913452
+Hey, 3020 is a plane classified as plane with prob. 0.23493684828281403
+Hey, 3033 is a plane classified as plane with prob. 0.21103692054748535
+Hey, 3154 is a plane classified as plane with prob. 0.2140367329120636
+Hey, 3197 is a plane classified as plane with prob. 0.23016077280044556
+Hey, 3359 is a plane classified as plane with prob. 0.2152707278728485
+Hey, 3360 is a bird classified as plane with prob. 0.16805611550807953
+Hey, 3575 is a plane classified as plane with prob. 0.19892096519470215
+Hey, 3631 is a plane classified as plane with prob. 0.2586148977279663
+Hey, 3890 is a bird classified as plane with prob. 0.22323063015937805
+Hey, 4154 is a plane classified as plane with prob. 0.1606212854385376
+Hey, 4303 is a plane classified as plane with prob. 0.1729828119277954
+Hey, 4338 is a bird classified as plane with prob. 0.23475754261016846
+Hey, 4339 is a plane classified as plane with prob. 0.23313786089420319
+Hey, 4402 is a plane classified as plane with prob. 0.2352064549922943
+Hey, 4542 is a deer classified as plane with prob. 0.22505934536457062
+Hey, 4601 is a plane classified as plane with prob. 0.22436480224132538
+Hey, 4676 is a plane classified as plane with prob. 0.21626348793506622
+Hey, 4778 is a plane classified as plane with prob. 0.22741276025772095
+Hey, 4780 is a plane classified as plane with prob. 0.23609256744384766
+Hey, 4818 is a plane classified as plane with prob. 0.2334100306034088
+Hey, 4969 is a plane classified as plane with prob. 0.23142892122268677
+Hey, 4988 is a plane classified as plane with prob. 0.17493799328804016
+nothing to correct
+optimizing class bird
+nothing to correct
+optimizing class ship
+Hey, 68 is a ship classified as ship with prob. 0.2414787858724594
+Hey, 114 is a ship classified as ship with prob. 0.23297995328903198
+Hey, 158 is a ship classified as ship with prob. 0.20171330869197845
+Hey, 169 is a ship classified as ship with prob. 0.20113426446914673
+Hey, 180 is a ship classified as ship with prob. 0.22851894795894623
+Hey, 208 is a ship classified as ship with prob. 0.23256006836891174
+Hey, 292 is a ship classified as ship with prob. 0.1958540976047516
+Hey, 297 is a ship classified as ship with prob. 0.2157633900642395
+Hey, 331 is a ship classified as ship with prob. 0.19367951154708862
+Hey, 458 is a ship classified as ship with prob. 0.2465454339981079
+Hey, 503 is a ship classified as ship with prob. 0.18019689619541168
+Hey, 543 is a deer classified as ship with prob. 0.18957366049289703
+Hey, 577 is a deer classified as ship with prob. 0.18899622559547424
+Hey, 603 is a ship classified as ship with prob. 0.22274230420589447
+Hey, 622 is a ship classified as ship with prob. 0.22517387568950653
+Hey, 623 is a car classified as ship with prob. 0.2029954195022583
+Hey, 643 is a ship classified as ship with prob. 0.15778674185276031
+Hey, 662 is a ship classified as ship with prob. 0.2418200522661209
+Hey, 792 is a ship classified as ship with prob. 0.20270925760269165
+Hey, 800 is a ship classified as ship with prob. 0.20793506503105164
+Hey, 812 is a ship classified as ship with prob. 0.21420438587665558
+Hey, 815 is a plane classified as ship with prob. 0.21833020448684692
+Hey, 931 is a ship classified as ship with prob. 0.2347913682460785
+Hey, 973 is a bird classified as ship with prob. 0.17607536911964417
+Hey, 1063 is a ship classified as ship with prob. 0.22995702922344208
+Hey, 1077 is a ship classified as ship with prob. 0.20065855979919434
+Hey, 1184 is a ship classified as ship with prob. 0.23543184995651245
+Hey, 1254 is a ship classified as ship with prob. 0.22495968639850616
+Hey, 1255 is a truck classified as ship with prob. 0.22757931053638458
+Hey, 1271 is a ship classified as ship with prob. 0.20546221733093262
+Hey, 1292 is a ship classified as ship with prob. 0.1711418777704239
+Hey, 1415 is a bird classified as ship with prob. 0.22769924998283386
+Hey, 1439 is a ship classified as ship with prob. 0.23508700728416443
+Hey, 1464 is a ship classified as ship with prob. 0.2269764393568039
+Hey, 1475 is a ship classified as ship with prob. 0.2074793577194214
+Hey, 1535 is a ship classified as ship with prob. 0.2135336995124817
+Hey, 1607 is a bird classified as ship with prob. 0.20882172882556915
+Hey, 1628 is a ship classified as ship with prob. 0.2374211549758911
+Hey, 1636 is a ship classified as ship with prob. 0.23381851613521576
+Hey, 1637 is a plane classified as ship with prob. 0.18581263720989227
+Hey, 1700 is a ship classified as ship with prob. 0.17450907826423645
+Hey, 1735 is a ship classified as ship with prob. 0.22747141122817993
+Hey, 1833 is a ship classified as ship with prob. 0.20164287090301514
+Hey, 1880 is a bird classified as ship with prob. 0.21658776700496674
+Hey, 1900 is a truck classified as ship with prob. 0.20431113243103027
+Hey, 1917 is a ship classified as ship with prob. 0.20694756507873535
+Hey, 1930 is a ship classified as ship with prob. 0.17995503544807434
+Hey, 1968 is a car classified as ship with prob. 0.23942498862743378
+Hey, 2047 is a ship classified as ship with prob. 0.23575544357299805
+Hey, 2080 is a ship classified as ship with prob. 0.2315174788236618
+Hey, 2203 is a ship classified as ship with prob. 0.23422224819660187
+Hey, 2237 is a ship classified as ship with prob. 0.23031124472618103
+Hey, 2280 is a ship classified as ship with prob. 0.21471120417118073
+Hey, 2287 is a ship classified as ship with prob. 0.1967075616121292
+Hey, 2308 is a ship classified as ship with prob. 0.19770613312721252
+Hey, 2326 is a ship classified as ship with prob. 0.1795104295015335
+Hey, 2333 is a ship classified as ship with prob. 0.21334774792194366
+Hey, 2351 is a horse classified as ship with prob. 0.21375776827335358
+Hey, 2377 is a ship classified as ship with prob. 0.2058507651090622
+Hey, 2406 is a car classified as ship with prob. 0.2038351148366928
+Hey, 2407 is a ship classified as ship with prob. 0.23339101672172546
+Hey, 2421 is a ship classified as ship with prob. 0.239541158080101
+Hey, 2424 is a ship classified as ship with prob. 0.16932766139507294
+Hey, 2432 is a ship classified as ship with prob. 0.23945006728172302
+Hey, 2495 is a ship classified as ship with prob. 0.17245909571647644
+Hey, 2505 is a ship classified as ship with prob. 0.24232852458953857
+Hey, 2549 is a ship classified as ship with prob. 0.24282529950141907
+Hey, 2603 is a ship classified as ship with prob. 0.16828680038452148
+Hey, 2650 is a ship classified as ship with prob. 0.2285917103290558
+Hey, 2669 is a ship classified as ship with prob. 0.23301608860492706
+Hey, 2685 is a truck classified as ship with prob. 0.17442694306373596
+Hey, 2692 is a ship classified as ship with prob. 0.22102193534374237
+Hey, 2720 is a truck classified as ship with prob. 0.22393539547920227
+Hey, 2722 is a ship classified as ship with prob. 0.21815180778503418
+Hey, 2732 is a car classified as ship with prob. 0.222047358751297
+Hey, 2783 is a ship classified as ship with prob. 0.23206567764282227
+Hey, 2795 is a ship classified as ship with prob. 0.22507774829864502
+Hey, 2807 is a ship classified as ship with prob. 0.20006901025772095
+Hey, 2833 is a ship classified as ship with prob. 0.18643243610858917
+Hey, 2850 is a ship classified as ship with prob. 0.2416408360004425
+Hey, 2872 is a ship classified as ship with prob. 0.22277188301086426
+Hey, 2891 is a ship classified as ship with prob. 0.18644793331623077
+Hey, 2913 is a ship classified as ship with prob. 0.22792816162109375
+Hey, 2919 is a bird classified as ship with prob. 0.23697049915790558
+Hey, 2988 is a ship classified as ship with prob. 0.24101461470127106
+Hey, 3071 is a ship classified as ship with prob. 0.18323101103305817
+Hey, 3111 is a plane classified as ship with prob. 0.1947321593761444
+Hey, 3132 is a ship classified as ship with prob. 0.2488282024860382
+Hey, 3332 is a truck classified as ship with prob. 0.2460642009973526
+Hey, 3393 is a ship classified as ship with prob. 0.2194124162197113
+Hey, 3401 is a ship classified as ship with prob. 0.16767103970050812
+Hey, 3413 is a ship classified as ship with prob. 0.2313821017742157
+Hey, 3525 is a cat classified as ship with prob. 0.20456969738006592
+Hey, 3538 is a bird classified as ship with prob. 0.20101304352283478
+Hey, 3563 is a ship classified as ship with prob. 0.194528266787529
+Hey, 3608 is a ship classified as ship with prob. 0.23643691837787628
+Hey, 3626 is a ship classified as ship with prob. 0.17716491222381592
+Hey, 3670 is a ship classified as ship with prob. 0.2155069261789322
+Hey, 3683 is a ship classified as ship with prob. 0.22977758944034576
+Hey, 3704 is a ship classified as ship with prob. 0.23197346925735474
+Hey, 3790 is a ship classified as ship with prob. 0.19398033618927002
+Hey, 3816 is a ship classified as ship with prob. 0.22167463600635529
+Hey, 3847 is a bird classified as ship with prob. 0.18211905658245087
+Hey, 3856 is a ship classified as ship with prob. 0.20092381536960602
+Hey, 3871 is a ship classified as ship with prob. 0.23485396802425385
+Hey, 3875 is a ship classified as ship with prob. 0.17007078230381012
+Hey, 3925 is a bird classified as ship with prob. 0.18813687562942505
+Hey, 3976 is a ship classified as ship with prob. 0.26968812942504883
+Hey, 3989 is a ship classified as ship with prob. 0.23815053701400757
+Hey, 4026 is a ship classified as ship with prob. 0.23412594199180603
+Hey, 4037 is a ship classified as ship with prob. 0.21178989112377167
+Hey, 4062 is a ship classified as ship with prob. 0.2428063601255417
+Hey, 4095 is a ship classified as ship with prob. 0.2319047749042511
+Hey, 4180 is a ship classified as ship with prob. 0.22902950644493103
+Hey, 4186 is a ship classified as ship with prob. 0.22869683802127838
+Hey, 4201 is a ship classified as ship with prob. 0.1729593276977539
+Hey, 4212 is a ship classified as ship with prob. 0.25063878297805786
+Hey, 4228 is a ship classified as ship with prob. 0.22142237424850464
+Hey, 4232 is a truck classified as ship with prob. 0.23521611094474792
+Hey, 4260 is a ship classified as ship with prob. 0.23168349266052246
+Hey, 4289 is a ship classified as ship with prob. 0.18186746537685394
+Hey, 4411 is a ship classified as ship with prob. 0.2391907274723053
+Hey, 4417 is a ship classified as ship with prob. 0.2279270440340042
+Hey, 4420 is a ship classified as ship with prob. 0.21527808904647827
+Hey, 4458 is a truck classified as ship with prob. 0.1507481336593628
+Hey, 4520 is a ship classified as ship with prob. 0.16903121769428253
+Hey, 4530 is a ship classified as ship with prob. 0.24006086587905884
+Hey, 4535 is a ship classified as ship with prob. 0.23960818350315094
+Hey, 4540 is a car classified as ship with prob. 0.2295752316713333
+Hey, 4568 is a ship classified as ship with prob. 0.18032319843769073
+Hey, 4703 is a ship classified as ship with prob. 0.23681752383708954
+Hey, 4748 is a ship classified as ship with prob. 0.21606621146202087
+Hey, 4765 is a ship classified as ship with prob. 0.1746082454919815
+Hey, 4815 is a ship classified as ship with prob. 0.24532736837863922
+Hey, 4850 is a ship classified as ship with prob. 0.23623445630073547
+nothing to correct
+optimizing class truck
+nothing to correct
+corrected 195 labels
+label learning epoch 3 for learning 4350 labels
+partial label learning epoch 0
+[1,   100] loss: 0.019
+[1,   200] loss: 0.019
+[1,   300] loss: 0.020
+[1,   400] loss: 0.019
+[1,   500] loss: 0.019
+partial label learning epoch 1
+[2,   100] loss: 0.019
+[2,   200] loss: 0.019
+[2,   300] loss: 0.019
+[2,   400] loss: 0.019
+[2,   500] loss: 0.019
+partial label learning epoch 2
+[3,   100] loss: 0.019
+[3,   200] loss: 0.019
+[3,   300] loss: 0.019
+[3,   400] loss: 0.019
+[3,   500] loss: 0.019
+partial label learning epoch 3
+[4,   100] loss: 0.019
+[4,   200] loss: 0.019
+[4,   300] loss: 0.019
+[4,   400] loss: 0.019
+[4,   500] loss: 0.019
+partial label learning epoch 4
+[5,   100] loss: 0.019
+[5,   200] loss: 0.019
+[5,   300] loss: 0.019
+[5,   400] loss: 0.019
+[5,   500] loss: 0.019
+partial label learning epoch 5
+[6,   100] loss: 0.019
+[6,   200] loss: 0.019
+[6,   300] loss: 0.019
+[6,   400] loss: 0.019
+[6,   500] loss: 0.019
+partial label learning epoch 6
+[7,   100] loss: 0.019
+[7,   200] loss: 0.019
+[7,   300] loss: 0.019
+[7,   400] loss: 0.019
+[7,   500] loss: 0.019
+partial label learning epoch 7
+[8,   100] loss: 0.019
+[8,   200] loss: 0.019
+[8,   300] loss: 0.019
+[8,   400] loss: 0.019
+[8,   500] loss: 0.019
+partial label learning epoch 8
+[9,   100] loss: 0.019
+[9,   200] loss: 0.019
+[9,   300] loss: 0.019
+[9,   400] loss: 0.019
+[9,   500] loss: 0.019
+partial label learning epoch 9
+[10,   100] loss: 0.019
+[10,   200] loss: 0.019
+[10,   300] loss: 0.019
+[10,   400] loss: 0.018
+[10,   500] loss: 0.019
+partial label learning epoch 10
+[11,   100] loss: 0.018
+[11,   200] loss: 0.018
+[11,   300] loss: 0.018
+[11,   400] loss: 0.018
+[11,   500] loss: 0.018
+partial label learning epoch 11
+[12,   100] loss: 0.018
+[12,   200] loss: 0.017
+[12,   300] loss: 0.018
+[12,   400] loss: 0.017
+[12,   500] loss: 0.018
+partial label learning epoch 12
+[13,   100] loss: 0.017
+[13,   200] loss: 0.018
+[13,   300] loss: 0.018
+[13,   400] loss: 0.017
+[13,   500] loss: 0.018
+partial label learning epoch 13
+[14,   100] loss: 0.018
+[14,   200] loss: 0.018
+[14,   300] loss: 0.017
+[14,   400] loss: 0.018
+[14,   500] loss: 0.018
+partial label learning epoch 14
+[15,   100] loss: 0.017
+[15,   200] loss: 0.017
+[15,   300] loss: 0.017
+[15,   400] loss: 0.018
+[15,   500] loss: 0.018
+partial label learning epoch 15
+[16,   100] loss: 0.017
+[16,   200] loss: 0.018
+[16,   300] loss: 0.017
+[16,   400] loss: 0.018
+[16,   500] loss: 0.017
+partial label learning epoch 16
+[17,   100] loss: 0.017
+[17,   200] loss: 0.017
+[17,   300] loss: 0.017
+[17,   400] loss: 0.017
+[17,   500] loss: 0.018
+partial label learning epoch 17
+[18,   100] loss: 0.018
+[18,   200] loss: 0.018
+[18,   300] loss: 0.017
+[18,   400] loss: 0.017
+[18,   500] loss: 0.017
+partial label learning epoch 18
+[19,   100] loss: 0.017
+[19,   200] loss: 0.017
+[19,   300] loss: 0.018
+[19,   400] loss: 0.018
+[19,   500] loss: 0.018
+partial label learning epoch 19
+[20,   100] loss: 0.017
+[20,   200] loss: 0.017
+[20,   300] loss: 0.017
+[20,   400] loss: 0.017
+[20,   500] loss: 0.017
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [457.0, 12.0, 1.0, 0.0, 0.0, 0.0, 970.0, 0.0, 620.0, 0.0]
+Accuracy of plane : 46.39593908629442%
+Accuracy of car : 1.1753183153770812%
+Accuracy of bird : 0.10080645161290322%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 98.0788675429727%
+Accuracy of horse : 0.0%
+Accuracy of ship : 58.93536121673004%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 7 is a plane classified as plane with prob. 0.2168746143579483
+Hey, 106 is a plane classified as plane with prob. 0.23155871033668518
+Hey, 107 is a horse classified as plane with prob. 0.23476846516132355
+Hey, 310 is a plane classified as plane with prob. 0.24822761118412018
+Hey, 417 is a plane classified as plane with prob. 0.21666741371154785
+Hey, 463 is a horse classified as plane with prob. 0.21727533638477325
+Hey, 574 is a truck classified as plane with prob. 0.22004841268062592
+Hey, 690 is a plane classified as plane with prob. 0.23614338040351868
+Hey, 743 is a plane classified as plane with prob. 0.22449246048927307
+Hey, 747 is a plane classified as plane with prob. 0.23791930079460144
+Hey, 754 is a plane classified as plane with prob. 0.23706099390983582
+Hey, 755 is a car classified as plane with prob. 0.22055090963840485
+Hey, 1210 is a plane classified as plane with prob. 0.22826305031776428
+Hey, 1231 is a plane classified as plane with prob. 0.20064719021320343
+Hey, 1238 is a plane classified as plane with prob. 0.23064686357975006
+Hey, 1258 is a plane classified as plane with prob. 0.2377796173095703
+Hey, 1289 is a plane classified as plane with prob. 0.25547587871551514
+Hey, 1346 is a plane classified as plane with prob. 0.228003591299057
+Hey, 1532 is a plane classified as plane with prob. 0.21284565329551697
+Hey, 1541 is a plane classified as plane with prob. 0.2334713339805603
+Hey, 1603 is a plane classified as plane with prob. 0.21911680698394775
+Hey, 1612 is a plane classified as plane with prob. 0.23429284989833832
+Hey, 1684 is a bird classified as plane with prob. 0.22767335176467896
+Hey, 1787 is a plane classified as plane with prob. 0.21954277157783508
+Hey, 2014 is a plane classified as plane with prob. 0.22850358486175537
+Hey, 2036 is a plane classified as plane with prob. 0.23093655705451965
+Hey, 2058 is a plane classified as plane with prob. 0.22266021370887756
+Hey, 2105 is a plane classified as plane with prob. 0.22731465101242065
+Hey, 2108 is a plane classified as plane with prob. 0.2308947890996933
+Hey, 2302 is a car classified as plane with prob. 0.22313858568668365
+Hey, 2318 is a plane classified as plane with prob. 0.20287109911441803
+Hey, 2349 is a car classified as plane with prob. 0.22622911632061005
+Hey, 2363 is a plane classified as plane with prob. 0.2363753616809845
+Hey, 2414 is a car classified as plane with prob. 0.23480531573295593
+Hey, 2845 is a plane classified as plane with prob. 0.2305268943309784
+Hey, 2877 is a plane classified as plane with prob. 0.21893617510795593
+Hey, 2894 is a car classified as plane with prob. 0.23071397840976715
+Hey, 3149 is a plane classified as plane with prob. 0.22668759524822235
+Hey, 3296 is a ship classified as plane with prob. 0.20703324675559998
+Hey, 3335 is a plane classified as plane with prob. 0.22983905673027039
+Hey, 3389 is a plane classified as plane with prob. 0.21908049285411835
+Hey, 3736 is a plane classified as plane with prob. 0.23456265032291412
+Hey, 3788 is a plane classified as plane with prob. 0.23074716329574585
+Hey, 3897 is a plane classified as plane with prob. 0.239585742354393
+Hey, 3956 is a plane classified as plane with prob. 0.1885414719581604
+Hey, 3973 is a plane classified as plane with prob. 0.23433394730091095
+Hey, 4038 is a plane classified as plane with prob. 0.2363135665655136
+Hey, 4061 is a plane classified as plane with prob. 0.23193059861660004
+Hey, 4150 is a plane classified as plane with prob. 0.2139294147491455
+Hey, 4398 is a car classified as plane with prob. 0.22453221678733826
+Hey, 4518 is a plane classified as plane with prob. 0.218275785446167
+Hey, 4543 is a plane classified as plane with prob. 0.20904695987701416
+Hey, 4731 is a plane classified as plane with prob. 0.23080097138881683
+Hey, 4942 is a plane classified as plane with prob. 0.169481098651886
+nothing to correct
+optimizing class car
+nothing to correct
+optimizing class frog
+nothing to correct
+optimizing class ship
+Hey, 18 is a ship classified as ship with prob. 0.22338640689849854
+Hey, 100 is a ship classified as ship with prob. 0.22094480693340302
+Hey, 168 is a frog classified as ship with prob. 0.22008337080478668
+Hey, 181 is a truck classified as ship with prob. 0.1977849304676056
+Hey, 362 is a ship classified as ship with prob. 0.19590961933135986
+Hey, 512 is a ship classified as ship with prob. 0.23528368771076202
+Hey, 586 is a ship classified as ship with prob. 0.16288842260837555
+Hey, 629 is a ship classified as ship with prob. 0.2309674620628357
+Hey, 683 is a plane classified as ship with prob. 0.21741147339344025
+Hey, 760 is a car classified as ship with prob. 0.22738006711006165
+Hey, 791 is a ship classified as ship with prob. 0.20142309367656708
+Hey, 915 is a ship classified as ship with prob. 0.2362595796585083
+Hey, 981 is a dog classified as ship with prob. 0.23126043379306793
+Hey, 1025 is a ship classified as ship with prob. 0.22975794970989227
+Hey, 1112 is a truck classified as ship with prob. 0.21778836846351624
+Hey, 1113 is a ship classified as ship with prob. 0.23579151928424835
+Hey, 1188 is a ship classified as ship with prob. 0.22882896661758423
+Hey, 1401 is a ship classified as ship with prob. 0.2271522432565689
+Hey, 1526 is a ship classified as ship with prob. 0.1812686175107956
+Hey, 1600 is a ship classified as ship with prob. 0.2277475744485855
+Hey, 1881 is a ship classified as ship with prob. 0.2171797752380371
+Hey, 1931 is a dog classified as ship with prob. 0.21802695095539093
+Hey, 2000 is a ship classified as ship with prob. 0.23737165331840515
+Hey, 2003 is a ship classified as ship with prob. 0.2324303388595581
+Hey, 2055 is a ship classified as ship with prob. 0.23020516335964203
+Hey, 2110 is a ship classified as ship with prob. 0.1801374852657318
+Hey, 2153 is a truck classified as ship with prob. 0.22143252193927765
+Hey, 2207 is a bird classified as ship with prob. 0.23015925288200378
+Hey, 2257 is a bird classified as ship with prob. 0.18055881559848785
+Hey, 2309 is a car classified as ship with prob. 0.19613437354564667
+Hey, 2434 is a ship classified as ship with prob. 0.16449779272079468
+Hey, 2542 is a ship classified as ship with prob. 0.2258046567440033
+Hey, 2772 is a ship classified as ship with prob. 0.2309664487838745
+Hey, 2855 is a ship classified as ship with prob. 0.23055149614810944
+Hey, 2885 is a ship classified as ship with prob. 0.23237411677837372
+Hey, 2993 is a ship classified as ship with prob. 0.20532111823558807
+Hey, 3018 is a ship classified as ship with prob. 0.2084031105041504
+Hey, 3051 is a ship classified as ship with prob. 0.2296571284532547
+Hey, 3140 is a ship classified as ship with prob. 0.22008970379829407
+Hey, 3186 is a ship classified as ship with prob. 0.22802422940731049
+Hey, 3241 is a ship classified as ship with prob. 0.19263005256652832
+Hey, 3264 is a ship classified as ship with prob. 0.17786850035190582
+Hey, 3276 is a ship classified as ship with prob. 0.23847782611846924
+Hey, 3318 is a ship classified as ship with prob. 0.18278300762176514
+Hey, 3340 is a ship classified as ship with prob. 0.23007212579250336
+Hey, 3369 is a ship classified as ship with prob. 0.2009332925081253
+Hey, 3374 is a horse classified as ship with prob. 0.19314081966876984
+Hey, 3404 is a deer classified as ship with prob. 0.19926799833774567
+Hey, 3472 is a ship classified as ship with prob. 0.21577316522598267
+Hey, 3524 is a ship classified as ship with prob. 0.2371787428855896
+Hey, 3609 is a truck classified as ship with prob. 0.19102410972118378
+Hey, 3678 is a car classified as ship with prob. 0.22987881302833557
+Hey, 3691 is a ship classified as ship with prob. 0.1960573047399521
+Hey, 3705 is a plane classified as ship with prob. 0.20300698280334473
+Hey, 3721 is a ship classified as ship with prob. 0.19744865596294403
+Hey, 3846 is a ship classified as ship with prob. 0.22524689137935638
+Hey, 4012 is a ship classified as ship with prob. 0.21570280194282532
+Hey, 4028 is a ship classified as ship with prob. 0.22244343161582947
+Hey, 4036 is a truck classified as ship with prob. 0.22838439047336578
+Hey, 4085 is a ship classified as ship with prob. 0.23354394733905792
+Hey, 4109 is a ship classified as ship with prob. 0.19529114663600922
+Hey, 4233 is a ship classified as ship with prob. 0.23465850949287415
+Hey, 4247 is a cat classified as ship with prob. 0.22913363575935364
+Hey, 4266 is a dog classified as ship with prob. 0.19308996200561523
+Hey, 4317 is a ship classified as ship with prob. 0.2267570048570633
+Hey, 4446 is a truck classified as ship with prob. 0.18650494515895844
+Hey, 4712 is a ship classified as ship with prob. 0.2001367211341858
+Hey, 4749 is a car classified as ship with prob. 0.22302065789699554
+Hey, 4762 is a car classified as ship with prob. 0.23091019690036774
+Hey, 4768 is a ship classified as ship with prob. 0.2265588492155075
+nothing to correct
+corrected 124 labels
+label learning epoch 4 for learning 4226 labels
+partial label learning epoch 0
+[1,   100] loss: 0.018
+[1,   200] loss: 0.018
+[1,   300] loss: 0.018
+[1,   400] loss: 0.018
+[1,   500] loss: 0.018
+partial label learning epoch 1
+[2,   100] loss: 0.018
+[2,   200] loss: 0.018
+[2,   300] loss: 0.018
+[2,   400] loss: 0.019
+[2,   500] loss: 0.019
+partial label learning epoch 2
+[3,   100] loss: 0.018
+[3,   200] loss: 0.018
+[3,   300] loss: 0.018
+[3,   400] loss: 0.019
+[3,   500] loss: 0.018
+partial label learning epoch 3
+[4,   100] loss: 0.018
+[4,   200] loss: 0.018
+[4,   300] loss: 0.018
+[4,   400] loss: 0.018
+[4,   500] loss: 0.018
+partial label learning epoch 4
+[5,   100] loss: 0.018
+[5,   200] loss: 0.018
+[5,   300] loss: 0.018
+[5,   400] loss: 0.018
+[5,   500] loss: 0.018
+partial label learning epoch 5
+[6,   100] loss: 0.018
+[6,   200] loss: 0.019
+[6,   300] loss: 0.018
+[6,   400] loss: 0.018
+[6,   500] loss: 0.018
+partial label learning epoch 6
+[7,   100] loss: 0.019
+[7,   200] loss: 0.018
+[7,   300] loss: 0.018
+[7,   400] loss: 0.018
+[7,   500] loss: 0.019
+partial label learning epoch 7
+[8,   100] loss: 0.018
+[8,   200] loss: 0.019
+[8,   300] loss: 0.018
+[8,   400] loss: 0.018
+[8,   500] loss: 0.019
+partial label learning epoch 8
+[9,   100] loss: 0.019
+[9,   200] loss: 0.018
+[9,   300] loss: 0.019
+[9,   400] loss: 0.018
+[9,   500] loss: 0.018
+partial label learning epoch 9
+[10,   100] loss: 0.018
+[10,   200] loss: 0.018
+[10,   300] loss: 0.018
+[10,   400] loss: 0.019
+[10,   500] loss: 0.018
+partial label learning epoch 10
+[11,   100] loss: 0.017
+[11,   200] loss: 0.017
+[11,   300] loss: 0.017
+[11,   400] loss: 0.017
+[11,   500] loss: 0.017
+partial label learning epoch 11
+[12,   100] loss: 0.017
+[12,   200] loss: 0.017
+[12,   300] loss: 0.017
+[12,   400] loss: 0.017
+[12,   500] loss: 0.017
+partial label learning epoch 12
+[13,   100] loss: 0.017
+[13,   200] loss: 0.017
+[13,   300] loss: 0.017
+[13,   400] loss: 0.017
+[13,   500] loss: 0.017
+partial label learning epoch 13
+[14,   100] loss: 0.017
+[14,   200] loss: 0.017
+[14,   300] loss: 0.017
+[14,   400] loss: 0.017
+[14,   500] loss: 0.017
+partial label learning epoch 14
+[15,   100] loss: 0.017
+[15,   200] loss: 0.017
+[15,   300] loss: 0.017
+[15,   400] loss: 0.017
+[15,   500] loss: 0.017
+partial label learning epoch 15
+[16,   100] loss: 0.017
+[16,   200] loss: 0.017
+[16,   300] loss: 0.017
+[16,   400] loss: 0.017
+[16,   500] loss: 0.017
+partial label learning epoch 16
+[17,   100] loss: 0.017
+[17,   200] loss: 0.017
+[17,   300] loss: 0.017
+[17,   400] loss: 0.017
+[17,   500] loss: 0.017
+partial label learning epoch 17
+[18,   100] loss: 0.017
+[18,   200] loss: 0.017
+[18,   300] loss: 0.017
+[18,   400] loss: 0.017
+[18,   500] loss: 0.017
+partial label learning epoch 18
+[19,   100] loss: 0.017
+[19,   200] loss: 0.017
+[19,   300] loss: 0.017
+[19,   400] loss: 0.017
+[19,   500] loss: 0.017
+partial label learning epoch 19
+[20,   100] loss: 0.017
+[20,   200] loss: 0.017
+[20,   300] loss: 0.017
+[20,   400] loss: 0.017
+[20,   500] loss: 0.017
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [474.0, 156.0, 0.0, 1.0, 0.0, 0.0, 960.0, 0.0, 629.0, 2.0]
+Accuracy of plane : 48.121827411167516%
+Accuracy of car : 15.279138099902056%
+Accuracy of bird : 0.0%
+Accuracy of cat : 0.09930486593843098%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 97.06774519716886%
+Accuracy of horse : 0.0%
+Accuracy of ship : 59.79087452471483%
+Accuracy of truck : 0.19801980198019803%
+optimizing class plane
+Hey, 3 is a plane classified as plane with prob. 0.23516327142715454
+Hey, 6 is a dog classified as plane with prob. 0.23391903936862946
+Hey, 58 is a plane classified as plane with prob. 0.21538260579109192
+Hey, 77 is a plane classified as plane with prob. 0.21825383603572845
+Hey, 291 is a plane classified as plane with prob. 0.2391405552625656
+Hey, 411 is a plane classified as plane with prob. 0.23732349276542664
+Hey, 496 is a plane classified as plane with prob. 0.23340675234794617
+Hey, 504 is a plane classified as plane with prob. 0.22758817672729492
+Hey, 505 is a car classified as plane with prob. 0.24535182118415833
+Hey, 711 is a plane classified as plane with prob. 0.18363235890865326
+Hey, 767 is a plane classified as plane with prob. 0.18843159079551697
+Hey, 897 is a plane classified as plane with prob. 0.23661696910858154
+Hey, 959 is a plane classified as plane with prob. 0.23113305866718292
+Hey, 1026 is a deer classified as plane with prob. 0.2320554256439209
+Hey, 1027 is a plane classified as plane with prob. 0.21872137486934662
+Hey, 1286 is a plane classified as plane with prob. 0.2330554723739624
+Hey, 1363 is a frog classified as plane with prob. 0.23003439605236053
+Hey, 1395 is a deer classified as plane with prob. 0.23046287894248962
+Hey, 1456 is a cat classified as plane with prob. 0.23593465983867645
+Hey, 1493 is a bird classified as plane with prob. 0.23170840740203857
+Hey, 1605 is a plane classified as plane with prob. 0.23644721508026123
+Hey, 1685 is a plane classified as plane with prob. 0.20945142209529877
+Hey, 1958 is a plane classified as plane with prob. 0.24587514996528625
+Hey, 2041 is a horse classified as plane with prob. 0.20982497930526733
+Hey, 2258 is a bird classified as plane with prob. 0.23135018348693848
+Hey, 2463 is a plane classified as plane with prob. 0.23669086396694183
+Hey, 2493 is a plane classified as plane with prob. 0.24216580390930176
+Hey, 2677 is a truck classified as plane with prob. 0.22878502309322357
+Hey, 2728 is a car classified as plane with prob. 0.22949764132499695
+Hey, 2792 is a plane classified as plane with prob. 0.23734599351882935
+Hey, 2826 is a plane classified as plane with prob. 0.23503369092941284
+Hey, 2844 is a horse classified as plane with prob. 0.2359761893749237
+Hey, 3038 is a plane classified as plane with prob. 0.2349233776330948
+Hey, 3304 is a plane classified as plane with prob. 0.18437230587005615
+Hey, 3445 is a plane classified as plane with prob. 0.2342384159564972
+Hey, 3552 is a plane classified as plane with prob. 0.23332087695598602
+Hey, 3645 is a plane classified as plane with prob. 0.2371307909488678
+Hey, 3849 is a ship classified as plane with prob. 0.2252001166343689
+Hey, 3864 is a plane classified as plane with prob. 0.23177145421504974
+Hey, 4551 is a plane classified as plane with prob. 0.2328018844127655
+Hey, 4583 is a plane classified as plane with prob. 0.1920745074748993
+Hey, 4672 is a plane classified as plane with prob. 0.23264187574386597
+Hey, 4885 is a plane classified as plane with prob. 0.23282626271247864
+Hey, 4970 is a plane classified as plane with prob. 0.25324928760528564
+nothing to correct
+optimizing class car
+nothing to correct
+optimizing class frog
+nothing to correct
+optimizing class ship
+Hey, 24 is a ship classified as ship with prob. 0.18416258692741394
+Hey, 25 is a truck classified as ship with prob. 0.23161736130714417
+Hey, 59 is a ship classified as ship with prob. 0.2041514664888382
+Hey, 60 is a ship classified as ship with prob. 0.23328623175621033
+Hey, 274 is a ship classified as ship with prob. 0.2025654911994934
+Hey, 924 is a ship classified as ship with prob. 0.21987497806549072
+Hey, 969 is a ship classified as ship with prob. 0.2272205948829651
+Hey, 1143 is a cat classified as ship with prob. 0.22737272083759308
+Hey, 1228 is a truck classified as ship with prob. 0.22962072491645813
+Hey, 1260 is a ship classified as ship with prob. 0.23555083572864532
+Hey, 1402 is a ship classified as ship with prob. 0.2047187089920044
+Hey, 1434 is a ship classified as ship with prob. 0.23196759819984436
+Hey, 1601 is a truck classified as ship with prob. 0.23306119441986084
+Hey, 1625 is a ship classified as ship with prob. 0.2231774479150772
+Hey, 1626 is a plane classified as ship with prob. 0.20458292961120605
+Hey, 1646 is a plane classified as ship with prob. 0.21639679372310638
+Hey, 1754 is a ship classified as ship with prob. 0.223131000995636
+Hey, 2054 is a truck classified as ship with prob. 0.2335299253463745
+Hey, 2103 is a ship classified as ship with prob. 0.2285327911376953
+Hey, 2222 is a truck classified as ship with prob. 0.2113247960805893
+Hey, 2236 is a truck classified as ship with prob. 0.2373773455619812
+Hey, 2356 is a ship classified as ship with prob. 0.2262578159570694
+Hey, 2392 is a ship classified as ship with prob. 0.23294125497341156
+Hey, 2536 is a plane classified as ship with prob. 0.2045288383960724
+Hey, 2543 is a car classified as ship with prob. 0.193834587931633
+Hey, 2883 is a ship classified as ship with prob. 0.23202893137931824
+Hey, 2989 is a truck classified as ship with prob. 0.22335751354694366
+Hey, 3019 is a car classified as ship with prob. 0.23393367230892181
+Hey, 3098 is a ship classified as ship with prob. 0.2322644591331482
+Hey, 3141 is a car classified as ship with prob. 0.2353479266166687
+Hey, 3222 is a ship classified as ship with prob. 0.22246776521205902
+Hey, 3223 is a frog classified as ship with prob. 0.20255930721759796
+Hey, 3308 is a deer classified as ship with prob. 0.1602926254272461
+Hey, 3771 is a ship classified as ship with prob. 0.18866516649723053
+Hey, 3981 is a ship classified as ship with prob. 0.2342856228351593
+Hey, 4328 is a truck classified as ship with prob. 0.2317180633544922
+Hey, 4370 is a ship classified as ship with prob. 0.24013155698776245
+Hey, 4429 is a ship classified as ship with prob. 0.19451628625392914
+nothing to correct
+corrected 82 labels
+label learning epoch 5 for learning 4144 labels
+partial label learning epoch 0
+[1,   100] loss: 0.017
+[1,   200] loss: 0.018
+[1,   300] loss: 0.018
+[1,   400] loss: 0.018
+[1,   500] loss: 0.018
+partial label learning epoch 1
+[2,   100] loss: 0.018
+[2,   200] loss: 0.018
+[2,   300] loss: 0.018
+[2,   400] loss: 0.018
+[2,   500] loss: 0.018
+partial label learning epoch 2
+[3,   100] loss: 0.018
+[3,   200] loss: 0.018
+[3,   300] loss: 0.018
+[3,   400] loss: 0.018
+[3,   500] loss: 0.018
+partial label learning epoch 3
+[4,   100] loss: 0.018
+[4,   200] loss: 0.018
+[4,   300] loss: 0.018
+[4,   400] loss: 0.018
+[4,   500] loss: 0.018
+partial label learning epoch 4
+[5,   100] loss: 0.018
+[5,   200] loss: 0.018
+[5,   300] loss: 0.018
+[5,   400] loss: 0.018
+[5,   500] loss: 0.018
+partial label learning epoch 5
+[6,   100] loss: 0.018
+[6,   200] loss: 0.018
+[6,   300] loss: 0.018
+[6,   400] loss: 0.018
+[6,   500] loss: 0.018
+partial label learning epoch 6
+[7,   100] loss: 0.018
+[7,   200] loss: 0.018
+[7,   300] loss: 0.018
+[7,   400] loss: 0.018
+[7,   500] loss: 0.018
+partial label learning epoch 7
+[8,   100] loss: 0.018
+[8,   200] loss: 0.018
+[8,   300] loss: 0.018
+[8,   400] loss: 0.018
+[8,   500] loss: 0.018
+partial label learning epoch 8
+[9,   100] loss: 0.018
+[9,   200] loss: 0.018
+[9,   300] loss: 0.018
+[9,   400] loss: 0.018
+[9,   500] loss: 0.018
+partial label learning epoch 9
+[10,   100] loss: 0.018
+[10,   200] loss: 0.018
+[10,   300] loss: 0.018
+[10,   400] loss: 0.018
+[10,   500] loss: 0.018
+partial label learning epoch 10
+[11,   100] loss: 0.017
+[11,   200] loss: 0.017
+[11,   300] loss: 0.017
+[11,   400] loss: 0.017
+[11,   500] loss: 0.017
+partial label learning epoch 11
+[12,   100] loss: 0.017
+[12,   200] loss: 0.017
+[12,   300] loss: 0.017
+[12,   400] loss: 0.017
+[12,   500] loss: 0.017
+partial label learning epoch 12
+[13,   100] loss: 0.016
+[13,   200] loss: 0.017
+[13,   300] loss: 0.017
+[13,   400] loss: 0.017
+[13,   500] loss: 0.017
+partial label learning epoch 13
+[14,   100] loss: 0.017
+[14,   200] loss: 0.017
+[14,   300] loss: 0.017
+[14,   400] loss: 0.016
+[14,   500] loss: 0.017
+partial label learning epoch 14
+[15,   100] loss: 0.017
+[15,   200] loss: 0.017
+[15,   300] loss: 0.016
+[15,   400] loss: 0.017
+[15,   500] loss: 0.016
+partial label learning epoch 15
+[16,   100] loss: 0.017
+[16,   200] loss: 0.017
+[16,   300] loss: 0.017
+[16,   400] loss: 0.016
+[16,   500] loss: 0.017
+partial label learning epoch 16
+[17,   100] loss: 0.017
+[17,   200] loss: 0.016
+[17,   300] loss: 0.016
+[17,   400] loss: 0.017
+[17,   500] loss: 0.017
+partial label learning epoch 17
+[18,   100] loss: 0.017
+[18,   200] loss: 0.016
+[18,   300] loss: 0.017
+[18,   400] loss: 0.016
+[18,   500] loss: 0.017
+partial label learning epoch 18
+[19,   100] loss: 0.016
+[19,   200] loss: 0.017
+[19,   300] loss: 0.016
+[19,   400] loss: 0.017
+[19,   500] loss: 0.017
+partial label learning epoch 19
+[20,   100] loss: 0.016
+[20,   200] loss: 0.017
+[20,   300] loss: 0.017
+[20,   400] loss: 0.016
+[20,   500] loss: 0.017
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [482.0, 343.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 814.0, 0.0]
+Accuracy of plane : 48.934010152284266%
+Accuracy of car : 33.59451518119491%
+Accuracy of bird : 0.10080645161290322%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.2047082906857728%
+Accuracy of ship : 77.3764258555133%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 86 is a plane classified as plane with prob. 0.22315853834152222
+Hey, 403 is a deer classified as plane with prob. 0.2124822735786438
+Hey, 1105 is a plane classified as plane with prob. 0.2233787477016449
+Hey, 1291 is a ship classified as plane with prob. 0.20467419922351837
+Hey, 1461 is a dog classified as plane with prob. 0.224991112947464
+Hey, 1472 is a ship classified as plane with prob. 0.21125514805316925
+Hey, 1695 is a car classified as plane with prob. 0.22198231518268585
+Hey, 1914 is a plane classified as plane with prob. 0.21743974089622498
+Hey, 1937 is a dog classified as plane with prob. 0.2300463318824768
+Hey, 2509 is a horse classified as plane with prob. 0.23562899231910706
+Hey, 2665 is a frog classified as plane with prob. 0.220973402261734
+Hey, 2698 is a truck classified as plane with prob. 0.23393437266349792
+Hey, 2899 is a plane classified as plane with prob. 0.22821320593357086
+Hey, 3068 is a plane classified as plane with prob. 0.22723634541034698
+Hey, 3297 is a plane classified as plane with prob. 0.1859278678894043
+Hey, 3553 is a bird classified as plane with prob. 0.22315861284732819
+Hey, 3789 is a bird classified as plane with prob. 0.2288888543844223
+Hey, 3896 is a deer classified as plane with prob. 0.16916655004024506
+Hey, 3975 is a plane classified as plane with prob. 0.22155936062335968
+Hey, 4138 is a dog classified as plane with prob. 0.22888024151325226
+Hey, 4222 is a plane classified as plane with prob. 0.20546792447566986
+Hey, 4237 is a plane classified as plane with prob. 0.22600072622299194
+Hey, 4992 is a dog classified as plane with prob. 0.17724698781967163
+nothing to correct
+optimizing class car
+Hey, 56 is a car classified as car with prob. 0.17320916056632996
+Hey, 93 is a car classified as car with prob. 0.3125151991844177
+Hey, 153 is a car classified as car with prob. 0.2808516025543213
+Hey, 166 is a car classified as car with prob. 0.2443237006664276
+Hey, 177 is a car classified as car with prob. 0.20188775658607483
+Hey, 240 is a car classified as car with prob. 0.1595691591501236
+Hey, 243 is a car classified as car with prob. 0.17923031747341156
+Hey, 252 is a car classified as car with prob. 0.2540404796600342
+Hey, 281 is a car classified as car with prob. 0.24776645004749298
+Hey, 364 is a car classified as car with prob. 0.16668017208576202
+Hey, 370 is a bird classified as car with prob. 0.24862000346183777
+Hey, 469 is a car classified as car with prob. 0.21211978793144226
+Hey, 474 is a car classified as car with prob. 0.16329272091388702
+Hey, 485 is a car classified as car with prob. 0.3192908465862274
+Hey, 514 is a car classified as car with prob. 0.31452512741088867
+Hey, 523 is a car classified as car with prob. 0.2595595717430115
+Hey, 536 is a car classified as car with prob. 0.22624468803405762
+Hey, 544 is a car classified as car with prob. 0.19554689526557922
+Hey, 583 is a car classified as car with prob. 0.37940335273742676
+Hey, 648 is a car classified as car with prob. 0.26213833689689636
+Hey, 707 is a car classified as car with prob. 0.31543678045272827
+Hey, 720 is a car classified as car with prob. 0.15248434245586395
+Hey, 757 is a car classified as car with prob. 0.27706673741340637
+Hey, 780 is a car classified as car with prob. 0.21634915471076965
+Hey, 824 is a car classified as car with prob. 0.2382441759109497
+Hey, 840 is a car classified as car with prob. 0.2772204875946045
+Hey, 866 is a car classified as car with prob. 0.1861678808927536
+Hey, 874 is a car classified as car with prob. 0.2433943897485733
+Hey, 900 is a car classified as car with prob. 0.38729026913642883
+Hey, 928 is a car classified as car with prob. 0.2117771953344345
+Hey, 946 is a plane classified as car with prob. 0.23104515671730042
+Hey, 1028 is a car classified as car with prob. 0.2275511622428894
+Hey, 1044 is a car classified as car with prob. 0.21716277301311493
+Hey, 1051 is a car classified as car with prob. 0.26773935556411743
+Hey, 1068 is a car classified as car with prob. 0.17342735826969147
+Hey, 1119 is a car classified as car with prob. 0.1672484427690506
+Hey, 1128 is a car classified as car with prob. 0.18658851087093353
+Hey, 1140 is a car classified as car with prob. 0.18674413859844208
+Hey, 1219 is a car classified as car with prob. 0.16100665926933289
+Hey, 1256 is a car classified as car with prob. 0.1551196277141571
+Hey, 1332 is a car classified as car with prob. 0.23892173171043396
+Hey, 1339 is a car classified as car with prob. 0.15040385723114014
+Hey, 1390 is a car classified as car with prob. 0.1989113837480545
+Hey, 1399 is a car classified as car with prob. 0.26763612031936646
+Hey, 1567 is a car classified as car with prob. 0.2017320990562439
+Hey, 1579 is a car classified as car with prob. 0.23983809351921082
+Hey, 1585 is a car classified as car with prob. 0.3227470815181732
+Hey, 1640 is a car classified as car with prob. 0.5173814296722412
+Hey, 1653 is a car classified as car with prob. 0.15394631028175354
+Hey, 1676 is a car classified as car with prob. 0.45139747858047485
+Hey, 1687 is a car classified as car with prob. 0.2456347942352295
+Hey, 1701 is a car classified as car with prob. 0.28766152262687683
+Hey, 1719 is a car classified as car with prob. 0.36887162923812866
+Hey, 1779 is a car classified as car with prob. 0.1777259260416031
+Hey, 1843 is a car classified as car with prob. 0.23757725954055786
+Hey, 1852 is a car classified as car with prob. 0.2268979549407959
+Hey, 1858 is a car classified as car with prob. 0.3007848858833313
+Hey, 1859 is a bird classified as car with prob. 0.20609866082668304
+Hey, 1894 is a car classified as car with prob. 0.1508304327726364
+Hey, 1902 is a deer classified as car with prob. 0.25179699063301086
+Hey, 1909 is a car classified as car with prob. 0.16330011188983917
+Hey, 1985 is a car classified as car with prob. 0.21639257669448853
+Hey, 2035 is a car classified as car with prob. 0.25451889634132385
+Hey, 2075 is a car classified as car with prob. 0.242445170879364
+Hey, 2088 is a car classified as car with prob. 0.2551906108856201
+Hey, 2155 is a car classified as car with prob. 0.18865394592285156
+Hey, 2218 is a car classified as car with prob. 0.3302079737186432
+Hey, 2229 is a car classified as car with prob. 0.19033795595169067
+Hey, 2254 is a cat classified as car with prob. 0.2670997679233551
+Hey, 2272 is a car classified as car with prob. 0.2225562036037445
+Hey, 2373 is a car classified as car with prob. 0.20802035927772522
+Hey, 2385 is a truck classified as car with prob. 0.24475421011447906
+Hey, 2420 is a car classified as car with prob. 0.1585310846567154
+Hey, 2435 is a car classified as car with prob. 0.2285301834344864
+Hey, 2439 is a car classified as car with prob. 0.17894123494625092
+Hey, 2449 is a car classified as car with prob. 0.15406911075115204
+Hey, 2460 is a truck classified as car with prob. 0.23180818557739258
+Hey, 2492 is a car classified as car with prob. 0.18756581842899323
+Hey, 2498 is a car classified as car with prob. 0.22198690474033356
+Hey, 2562 is a car classified as car with prob. 0.24103181064128876
+Hey, 2586 is a car classified as car with prob. 0.245444655418396
+Hey, 2600 is a car classified as car with prob. 0.39106348156929016
+Hey, 2637 is a car classified as car with prob. 0.20493416488170624
+Hey, 2657 is a car classified as car with prob. 0.22263433039188385
+Hey, 2695 is a car classified as car with prob. 0.17284420132637024
+Hey, 2718 is a car classified as car with prob. 0.2549682855606079
+Hey, 2852 is a dog classified as car with prob. 0.27374306321144104
+Hey, 2858 is a car classified as car with prob. 0.24017666280269623
+Hey, 2915 is a car classified as car with prob. 0.2237206995487213
+Hey, 3035 is a car classified as car with prob. 0.15512920916080475
+Hey, 3061 is a car classified as car with prob. 0.27860748767852783
+Hey, 3065 is a truck classified as car with prob. 0.19736649096012115
+Hey, 3113 is a car classified as car with prob. 0.24662940204143524
+Hey, 3121 is a car classified as car with prob. 0.16074936091899872
+Hey, 3130 is a car classified as car with prob. 0.21839191019535065
+Hey, 3159 is a car classified as car with prob. 0.16683858633041382
+Hey, 3179 is a car classified as car with prob. 0.18133801221847534
+Hey, 3210 is a car classified as car with prob. 0.17770156264305115
+Hey, 3224 is a car classified as car with prob. 0.2137528657913208
+Hey, 3229 is a horse classified as car with prob. 0.22889070212841034
+Hey, 3231 is a car classified as car with prob. 0.1869221329689026
+Hey, 3233 is a car classified as car with prob. 0.16952434182167053
+Hey, 3278 is a car classified as car with prob. 0.31379830837249756
+Hey, 3287 is a car classified as car with prob. 0.1793140470981598
+Hey, 3493 is a car classified as car with prob. 0.1963648945093155
+Hey, 3509 is a car classified as car with prob. 0.2787832021713257
+Hey, 3602 is a car classified as car with prob. 0.22587750852108002
+Hey, 3663 is a car classified as car with prob. 0.27901923656463623
+Hey, 3682 is a car classified as car with prob. 0.24090386927127838
+Hey, 3715 is a car classified as car with prob. 0.20987948775291443
+Hey, 3717 is a car classified as car with prob. 0.24441756308078766
+Hey, 3718 is a car classified as car with prob. 0.34928038716316223
+Hey, 3744 is a car classified as car with prob. 0.2614559829235077
+Hey, 3764 is a car classified as car with prob. 0.24344566464424133
+Hey, 3808 is a car classified as car with prob. 0.3482814431190491
+Hey, 3817 is a car classified as car with prob. 0.22247430682182312
+Hey, 3819 is a car classified as car with prob. 0.4759320020675659
+Hey, 3869 is a car classified as car with prob. 0.21834637224674225
+Hey, 3879 is a car classified as car with prob. 0.265606164932251
+Hey, 3888 is a car classified as car with prob. 0.21753616631031036
+Hey, 3937 is a car classified as car with prob. 0.17895950376987457
+Hey, 3967 is a car classified as car with prob. 0.2471631020307541
+Hey, 3978 is a car classified as car with prob. 0.22701142728328705
+Hey, 4004 is a car classified as car with prob. 0.264644980430603
+Hey, 4024 is a truck classified as car with prob. 0.2790678143501282
+Hey, 4025 is a car classified as car with prob. 0.20591767132282257
+Hey, 4051 is a car classified as car with prob. 0.2381138801574707
+Hey, 4052 is a car classified as car with prob. 0.23656189441680908
+Hey, 4191 is a car classified as car with prob. 0.2838178277015686
+Hey, 4216 is a car classified as car with prob. 0.15017150342464447
+Hey, 4243 is a car classified as car with prob. 0.3004840612411499
+Hey, 4257 is a car classified as car with prob. 0.23041410744190216
+Hey, 4277 is a car classified as car with prob. 0.23757357895374298
+Hey, 4293 is a car classified as car with prob. 0.29220661520957947
+Hey, 4298 is a car classified as car with prob. 0.22900502383708954
+Hey, 4310 is a car classified as car with prob. 0.19667452573776245
+Hey, 4318 is a car classified as car with prob. 0.317126601934433
+Hey, 4330 is a car classified as car with prob. 0.2154398262500763
+Hey, 4340 is a car classified as car with prob. 0.247940331697464
+Hey, 4341 is a truck classified as car with prob. 0.28057968616485596
+Hey, 4379 is a car classified as car with prob. 0.35014134645462036
+Hey, 4395 is a car classified as car with prob. 0.2234266698360443
+Hey, 4396 is a car classified as car with prob. 0.2449224293231964
+Hey, 4468 is a car classified as car with prob. 0.16428932547569275
+Hey, 4528 is a car classified as car with prob. 0.24206987023353577
+Hey, 4572 is a car classified as car with prob. 0.22078463435173035
+Hey, 4594 is a car classified as car with prob. 0.2058810293674469
+Hey, 4602 is a car classified as car with prob. 0.22526104748249054
+Hey, 4613 is a car classified as car with prob. 0.1779492348432541
+Hey, 4631 is a car classified as car with prob. 0.2624730169773102
+Hey, 4634 is a car classified as car with prob. 0.1617152988910675
+Hey, 4640 is a car classified as car with prob. 0.19059967994689941
+Hey, 4651 is a car classified as car with prob. 0.19025403261184692
+Hey, 4720 is a car classified as car with prob. 0.3326438367366791
+Hey, 4729 is a dog classified as car with prob. 0.22987666726112366
+Hey, 4808 is a cat classified as car with prob. 0.18197336792945862
+Hey, 4837 is a car classified as car with prob. 0.1992632895708084
+Hey, 4841 is a car classified as car with prob. 0.27365049719810486
+Hey, 4851 is a car classified as car with prob. 0.22363218665122986
+Hey, 4862 is a car classified as car with prob. 0.25687235593795776
+Hey, 4883 is a car classified as car with prob. 0.18579669296741486
+Hey, 4966 is a car classified as car with prob. 0.17569619417190552
+Hey, 4982 is a truck classified as car with prob. 0.24194665253162384
+nothing to correct
+optimizing class ship
+Hey, 41 is a ship classified as ship with prob. 0.2221733033657074
+Hey, 159 is a truck classified as ship with prob. 0.23345978558063507
+Hey, 616 is a ship classified as ship with prob. 0.24523773789405823
+Hey, 642 is a car classified as ship with prob. 0.20156697928905487
+Hey, 682 is a ship classified as ship with prob. 0.2275048792362213
+Hey, 1280 is a bird classified as ship with prob. 0.23954631388187408
+Hey, 1573 is a ship classified as ship with prob. 0.2167034149169922
+Hey, 2111 is a truck classified as ship with prob. 0.20277929306030273
+Hey, 2228 is a ship classified as ship with prob. 0.18871884047985077
+Hey, 2297 is a ship classified as ship with prob. 0.22210365533828735
+Hey, 2338 is a ship classified as ship with prob. 0.23406124114990234
+Hey, 2425 is a dog classified as ship with prob. 0.23117689788341522
+Hey, 2739 is a ship classified as ship with prob. 0.2064570039510727
+Hey, 2773 is a bird classified as ship with prob. 0.22938095033168793
+Hey, 2796 is a dog classified as ship with prob. 0.24228154122829437
+Hey, 2832 is a car classified as ship with prob. 0.21719615161418915
+Hey, 3289 is a ship classified as ship with prob. 0.22686412930488586
+Hey, 3679 is a ship classified as ship with prob. 0.24615800380706787
+Hey, 3797 is a ship classified as ship with prob. 0.17440299689769745
+Hey, 3834 is a horse classified as ship with prob. 0.23368048667907715
+Hey, 3933 is a ship classified as ship with prob. 0.21890756487846375
+Hey, 4008 is a ship classified as ship with prob. 0.20662401616573334
+Hey, 4416 is a cat classified as ship with prob. 0.21378189325332642
+Hey, 4456 is a ship classified as ship with prob. 0.22231286764144897
+Hey, 4702 is a cat classified as ship with prob. 0.19978110492229462
+Hey, 4776 is a truck classified as ship with prob. 0.22320276498794556
+nothing to correct
+corrected 212 labels
+label learning epoch 6 for learning 3932 labels
+partial label learning epoch 0
+[1,   100] loss: 0.017
+[1,   200] loss: 0.017
+[1,   300] loss: 0.017
+[1,   400] loss: 0.017
+[1,   500] loss: 0.018
+partial label learning epoch 1
+[2,   100] loss: 0.017
+[2,   200] loss: 0.017
+[2,   300] loss: 0.017
+[2,   400] loss: 0.017
+[2,   500] loss: 0.018
+partial label learning epoch 2
+[3,   100] loss: 0.018
+[3,   200] loss: 0.017
+[3,   300] loss: 0.018
+[3,   400] loss: 0.018
+[3,   500] loss: 0.017
+partial label learning epoch 3
+[4,   100] loss: 0.017
+[4,   200] loss: 0.018
+[4,   300] loss: 0.018
+[4,   400] loss: 0.017
+[4,   500] loss: 0.017
+partial label learning epoch 4
+[5,   100] loss: 0.017
+[5,   200] loss: 0.017
+[5,   300] loss: 0.018
+[5,   400] loss: 0.017
+[5,   500] loss: 0.017
+partial label learning epoch 5
+[6,   100] loss: 0.018
+[6,   200] loss: 0.017
+[6,   300] loss: 0.018
+[6,   400] loss: 0.017
+[6,   500] loss: 0.017
+partial label learning epoch 6
+[7,   100] loss: 0.017
+[7,   200] loss: 0.017
+[7,   300] loss: 0.017
+[7,   400] loss: 0.018
+[7,   500] loss: 0.017
+partial label learning epoch 7
+[8,   100] loss: 0.018
+[8,   200] loss: 0.017
+[8,   300] loss: 0.017
+[8,   400] loss: 0.017
+[8,   500] loss: 0.018
+partial label learning epoch 8
+[9,   100] loss: 0.017
+[9,   200] loss: 0.018
+[9,   300] loss: 0.017
+[9,   400] loss: 0.018
+[9,   500] loss: 0.017
+partial label learning epoch 9
+[10,   100] loss: 0.017
+[10,   200] loss: 0.018
+[10,   300] loss: 0.017
+[10,   400] loss: 0.017
+[10,   500] loss: 0.017
+partial label learning epoch 10
+[11,   100] loss: 0.016
+[11,   200] loss: 0.016
+[11,   300] loss: 0.016
+[11,   400] loss: 0.017
+[11,   500] loss: 0.016
+partial label learning epoch 11
+[12,   100] loss: 0.016
+[12,   200] loss: 0.016
+[12,   300] loss: 0.016
+[12,   400] loss: 0.016
+[12,   500] loss: 0.016
+partial label learning epoch 12
+[13,   100] loss: 0.017
+[13,   200] loss: 0.016
+[13,   300] loss: 0.016
+[13,   400] loss: 0.016
+[13,   500] loss: 0.015
+partial label learning epoch 13
+[14,   100] loss: 0.016
+[14,   200] loss: 0.016
+[14,   300] loss: 0.016
+[14,   400] loss: 0.016
+[14,   500] loss: 0.016
+partial label learning epoch 14
+[15,   100] loss: 0.016
+[15,   200] loss: 0.016
+[15,   300] loss: 0.016
+[15,   400] loss: 0.016
+[15,   500] loss: 0.016
+partial label learning epoch 15
+[16,   100] loss: 0.016
+[16,   200] loss: 0.016
+[16,   300] loss: 0.016
+[16,   400] loss: 0.016
+[16,   500] loss: 0.016
+partial label learning epoch 16
+[17,   100] loss: 0.016
+[17,   200] loss: 0.016
+[17,   300] loss: 0.016
+[17,   400] loss: 0.016
+[17,   500] loss: 0.016
+partial label learning epoch 17
+[18,   100] loss: 0.016
+[18,   200] loss: 0.016
+[18,   300] loss: 0.016
+[18,   400] loss: 0.016
+[18,   500] loss: 0.015
+partial label learning epoch 18
+[19,   100] loss: 0.016
+[19,   200] loss: 0.016
+[19,   300] loss: 0.016
+[19,   400] loss: 0.016
+[19,   500] loss: 0.016
+partial label learning epoch 19
+[20,   100] loss: 0.016
+[20,   200] loss: 0.016
+[20,   300] loss: 0.016
+[20,   400] loss: 0.016
+[20,   500] loss: 0.016
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [699.0, 375.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 648.0, 0.0]
+Accuracy of plane : 70.96446700507614%
+Accuracy of car : 36.72869735553379%
+Accuracy of bird : 0.7056451612903226%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.0%
+Accuracy of ship : 61.59695817490494%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 917 is a plane classified as plane with prob. 0.23007416725158691
+Hey, 1018 is a truck classified as plane with prob. 0.22664907574653625
+Hey, 1150 is a plane classified as plane with prob. 0.2166045904159546
+Hey, 1441 is a plane classified as plane with prob. 0.2347058355808258
+Hey, 1829 is a plane classified as plane with prob. 0.20860323309898376
+Hey, 2030 is a plane classified as plane with prob. 0.2404291331768036
+Hey, 2241 is a cat classified as plane with prob. 0.23203787207603455
+Hey, 2289 is a deer classified as plane with prob. 0.2329140454530716
+Hey, 2346 is a frog classified as plane with prob. 0.24473321437835693
+Hey, 2391 is a dog classified as plane with prob. 0.22169215977191925
+Hey, 2486 is a plane classified as plane with prob. 0.17732234299182892
+Hey, 2779 is a plane classified as plane with prob. 0.24003291130065918
+Hey, 2896 is a plane classified as plane with prob. 0.19751876592636108
+Hey, 2940 is a plane classified as plane with prob. 0.22914665937423706
+Hey, 3030 is a bird classified as plane with prob. 0.2104504257440567
+Hey, 3114 is a plane classified as plane with prob. 0.23641882836818695
+Hey, 3139 is a bird classified as plane with prob. 0.22687579691410065
+Hey, 3215 is a plane classified as plane with prob. 0.23865361511707306
+Hey, 3594 is a dog classified as plane with prob. 0.24394690990447998
+Hey, 3724 is a truck classified as plane with prob. 0.19765809178352356
+Hey, 3843 is a cat classified as plane with prob. 0.24352002143859863
+Hey, 4101 is a plane classified as plane with prob. 0.27214133739471436
+Hey, 4649 is a horse classified as plane with prob. 0.21302999556064606
+Hey, 4677 is a bird classified as plane with prob. 0.244414821267128
+Hey, 4913 is a plane classified as plane with prob. 0.16948959231376648
+Hey, 4954 is a plane classified as plane with prob. 0.23266205191612244
+nothing to correct
+optimizing class car
+Hey, 31 is a truck classified as car with prob. 0.17250333726406097
+Hey, 85 is a car classified as car with prob. 0.21309635043144226
+Hey, 142 is a car classified as car with prob. 0.18818245828151703
+Hey, 195 is a car classified as car with prob. 0.21677930653095245
+Hey, 201 is a car classified as car with prob. 0.21092863380908966
+Hey, 204 is a car classified as car with prob. 0.15683099627494812
+Hey, 293 is a car classified as car with prob. 0.24361594021320343
+Hey, 372 is a car classified as car with prob. 0.22491206228733063
+Hey, 440 is a car classified as car with prob. 0.23223119974136353
+Hey, 449 is a car classified as car with prob. 0.22150938212871552
+Hey, 467 is a car classified as car with prob. 0.20069047808647156
+Hey, 519 is a car classified as car with prob. 0.17279815673828125
+Hey, 538 is a car classified as car with prob. 0.258190393447876
+Hey, 550 is a truck classified as car with prob. 0.22161084413528442
+Hey, 554 is a car classified as car with prob. 0.22837947309017181
+Hey, 615 is a car classified as car with prob. 0.2306850701570511
+Hey, 636 is a car classified as car with prob. 0.2265060991048813
+Hey, 739 is a car classified as car with prob. 0.2191268801689148
+Hey, 795 is a car classified as car with prob. 0.20789244771003723
+Hey, 797 is a car classified as car with prob. 0.2594251036643982
+Hey, 809 is a car classified as car with prob. 0.22041209042072296
+Hey, 842 is a car classified as car with prob. 0.22104951739311218
+Hey, 862 is a car classified as car with prob. 0.1958867311477661
+Hey, 947 is a car classified as car with prob. 0.20522098243236542
+Hey, 1040 is a car classified as car with prob. 0.2453492283821106
+Hey, 1092 is a car classified as car with prob. 0.16845862567424774
+Hey, 1201 is a car classified as car with prob. 0.18565796315670013
+Hey, 1344 is a car classified as car with prob. 0.19655877351760864
+Hey, 1397 is a car classified as car with prob. 0.16966895759105682
+Hey, 1448 is a car classified as car with prob. 0.23207193613052368
+Hey, 1466 is a car classified as car with prob. 0.21913202106952667
+Hey, 1497 is a car classified as car with prob. 0.22377867996692657
+Hey, 1576 is a car classified as car with prob. 0.1523798555135727
+Hey, 1681 is a car classified as car with prob. 0.1635333001613617
+Hey, 1715 is a car classified as car with prob. 0.155589759349823
+Hey, 1856 is a car classified as car with prob. 0.23418186604976654
+Hey, 1879 is a car classified as car with prob. 0.22300052642822266
+Hey, 1954 is a car classified as car with prob. 0.23696310818195343
+Hey, 1960 is a car classified as car with prob. 0.16696712374687195
+Hey, 1990 is a car classified as car with prob. 0.1861284077167511
+Hey, 2002 is a car classified as car with prob. 0.21028342843055725
+Hey, 2022 is a car classified as car with prob. 0.21245771646499634
+Hey, 2079 is a car classified as car with prob. 0.23487401008605957
+Hey, 2097 is a car classified as car with prob. 0.18933849036693573
+Hey, 2281 is a car classified as car with prob. 0.22149686515331268
+Hey, 2357 is a car classified as car with prob. 0.303041011095047
+Hey, 2378 is a car classified as car with prob. 0.18770158290863037
+Hey, 2433 is a car classified as car with prob. 0.1976984739303589
+Hey, 2446 is a car classified as car with prob. 0.22346152365207672
+Hey, 2639 is a car classified as car with prob. 0.2232583463191986
+Hey, 2765 is a cat classified as car with prob. 0.19153614342212677
+Hey, 2864 is a truck classified as car with prob. 0.1849461942911148
+Hey, 2897 is a car classified as car with prob. 0.1572090983390808
+Hey, 2971 is a car classified as car with prob. 0.22381635010242462
+Hey, 2978 is a car classified as car with prob. 0.21456444263458252
+Hey, 2982 is a car classified as car with prob. 0.16866494715213776
+Hey, 2996 is a car classified as car with prob. 0.214012011885643
+Hey, 3015 is a car classified as car with prob. 0.22427411377429962
+Hey, 3064 is a car classified as car with prob. 0.21375198662281036
+Hey, 3080 is a car classified as car with prob. 0.2270045280456543
+Hey, 3127 is a car classified as car with prob. 0.2347763478755951
+Hey, 3236 is a car classified as car with prob. 0.17192228138446808
+Hey, 3262 is a car classified as car with prob. 0.2943967580795288
+Hey, 3285 is a car classified as car with prob. 0.15870574116706848
+Hey, 3480 is a car classified as car with prob. 0.15853413939476013
+Hey, 3488 is a car classified as car with prob. 0.22602099180221558
+Hey, 3673 is a car classified as car with prob. 0.26713743805885315
+Hey, 3741 is a car classified as car with prob. 0.20626354217529297
+Hey, 3994 is a car classified as car with prob. 0.20601731538772583
+Hey, 3999 is a car classified as car with prob. 0.1628831923007965
+Hey, 4017 is a car classified as car with prob. 0.2358347773551941
+Hey, 4066 is a car classified as car with prob. 0.25248903036117554
+Hey, 4165 is a car classified as car with prob. 0.24662384390830994
+Hey, 4176 is a car classified as car with prob. 0.1897173821926117
+Hey, 4234 is a car classified as car with prob. 0.2338704615831375
+Hey, 4313 is a car classified as car with prob. 0.16065700352191925
+Hey, 4412 is a car classified as car with prob. 0.22871442139148712
+Hey, 4427 is a car classified as car with prob. 0.20370523631572723
+Hey, 4541 is a ship classified as car with prob. 0.24131979048252106
+Hey, 4823 is a car classified as car with prob. 0.18963806331157684
+Hey, 4916 is a car classified as car with prob. 0.22282741963863373
+nothing to correct
+optimizing class bird
+nothing to correct
+optimizing class cat
+nothing to correct
+optimizing class deer
+nothing to correct
+optimizing class dog
+nothing to correct
+optimizing class frog
+nothing to correct
+optimizing class horse
+nothing to correct
+optimizing class ship
+Hey, 231 is a bird classified as ship with prob. 0.2311394214630127
+Hey, 502 is a truck classified as ship with prob. 0.2310725599527359
+Hey, 678 is a ship classified as ship with prob. 0.23460721969604492
+Hey, 762 is a ship classified as ship with prob. 0.2353217899799347
+Hey, 846 is a ship classified as ship with prob. 0.16927646100521088
+Hey, 980 is a ship classified as ship with prob. 0.22202205657958984
+Hey, 1174 is a cat classified as ship with prob. 0.23438099026679993
+Hey, 1268 is a car classified as ship with prob. 0.19845232367515564
+Hey, 1403 is a cat classified as ship with prob. 0.22533351182937622
+Hey, 1974 is a ship classified as ship with prob. 0.2325011044740677
+Hey, 2049 is a ship classified as ship with prob. 0.23702283203601837
+Hey, 2223 is a ship classified as ship with prob. 0.2258455455303192
+Hey, 2375 is a frog classified as ship with prob. 0.21142712235450745
+Hey, 2794 is a bird classified as ship with prob. 0.2320283204317093
+Hey, 2918 is a ship classified as ship with prob. 0.22812284529209137
+Hey, 3099 is a truck classified as ship with prob. 0.24035553634166718
+Hey, 3277 is a truck classified as ship with prob. 0.1869686394929886
+Hey, 4087 is a horse classified as ship with prob. 0.22830085456371307
+Hey, 4162 is a ship classified as ship with prob. 0.2267024666070938
+Hey, 4389 is a ship classified as ship with prob. 0.235933318734169
+Hey, 4826 is a bird classified as ship with prob. 0.23190538585186005
+nothing to correct
+optimizing class truck
+nothing to correct
+corrected 128 labels
+label learning epoch 7 for learning 3804 labels
+partial label learning epoch 0
+[1,   100] loss: 0.016
+[1,   200] loss: 0.017
+[1,   300] loss: 0.017
+[1,   400] loss: 0.017
+[1,   500] loss: 0.017
+partial label learning epoch 1
+[2,   100] loss: 0.017
+[2,   200] loss: 0.017
+[2,   300] loss: 0.017
+[2,   400] loss: 0.017
+[2,   500] loss: 0.017
+partial label learning epoch 2
+[3,   100] loss: 0.017
+[3,   200] loss: 0.017
+[3,   300] loss: 0.017
+[3,   400] loss: 0.017
+[3,   500] loss: 0.017
+partial label learning epoch 3
+[4,   100] loss: 0.017
+[4,   200] loss: 0.017
+[4,   300] loss: 0.017
+[4,   400] loss: 0.017
+[4,   500] loss: 0.017
+partial label learning epoch 4
+[5,   100] loss: 0.017
+[5,   200] loss: 0.017
+[5,   300] loss: 0.017
+[5,   400] loss: 0.017
+[5,   500] loss: 0.017
+partial label learning epoch 5
+[6,   100] loss: 0.017
+[6,   200] loss: 0.017
+[6,   300] loss: 0.017
+[6,   400] loss: 0.017
+[6,   500] loss: 0.017
+partial label learning epoch 6
+[7,   100] loss: 0.017
+[7,   200] loss: 0.017
+[7,   300] loss: 0.017
+[7,   400] loss: 0.017
+[7,   500] loss: 0.017
+partial label learning epoch 7
+[8,   100] loss: 0.017
+[8,   200] loss: 0.017
+[8,   300] loss: 0.017
+[8,   400] loss: 0.017
+[8,   500] loss: 0.017
+partial label learning epoch 8
+[9,   100] loss: 0.017
+[9,   200] loss: 0.017
+[9,   300] loss: 0.017
+[9,   400] loss: 0.017
+[9,   500] loss: 0.017
+partial label learning epoch 9
+[10,   100] loss: 0.017
+[10,   200] loss: 0.017
+[10,   300] loss: 0.017
+[10,   400] loss: 0.017
+[10,   500] loss: 0.017
+partial label learning epoch 10
+[11,   100] loss: 0.016
+[11,   200] loss: 0.016
+[11,   300] loss: 0.016
+[11,   400] loss: 0.016
+[11,   500] loss: 0.016
+partial label learning epoch 11
+[12,   100] loss: 0.015
+[12,   200] loss: 0.016
+[12,   300] loss: 0.016
+[12,   400] loss: 0.015
+[12,   500] loss: 0.016
+partial label learning epoch 12
+[13,   100] loss: 0.015
+[13,   200] loss: 0.015
+[13,   300] loss: 0.016
+[13,   400] loss: 0.016
+[13,   500] loss: 0.016
+partial label learning epoch 13
+[14,   100] loss: 0.016
+[14,   200] loss: 0.016
+[14,   300] loss: 0.015
+[14,   400] loss: 0.015
+[14,   500] loss: 0.015
+partial label learning epoch 14
+[15,   100] loss: 0.016
+[15,   200] loss: 0.016
+[15,   300] loss: 0.015
+[15,   400] loss: 0.015
+[15,   500] loss: 0.016
+partial label learning epoch 15
+[16,   100] loss: 0.016
+[16,   200] loss: 0.015
+[16,   300] loss: 0.015
+[16,   400] loss: 0.016
+[16,   500] loss: 0.016
+partial label learning epoch 16
+[17,   100] loss: 0.015
+[17,   200] loss: 0.015
+[17,   300] loss: 0.016
+[17,   400] loss: 0.015
+[17,   500] loss: 0.016
+partial label learning epoch 17
+[18,   100] loss: 0.015
+[18,   200] loss: 0.016
+[18,   300] loss: 0.015
+[18,   400] loss: 0.015
+[18,   500] loss: 0.015
+partial label learning epoch 18
+[19,   100] loss: 0.015
+[19,   200] loss: 0.015
+[19,   300] loss: 0.016
+[19,   400] loss: 0.015
+[19,   500] loss: 0.016
+partial label learning epoch 19
+[20,   100] loss: 0.015
+[20,   200] loss: 0.015
+[20,   300] loss: 0.015
+[20,   400] loss: 0.016
+[20,   500] loss: 0.015
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [466.0, 396.0, 22.0, 1.0, 1.0, 0.0, 914.0, 1.0, 619.0, 0.0]
+Accuracy of plane : 47.30964467005076%
+Accuracy of car : 38.78550440744368%
+Accuracy of bird : 2.217741935483871%
+Accuracy of cat : 0.09930486593843098%
+Accuracy of deer : 0.10384215991692627%
+Accuracy of dog : 0.0%
+Accuracy of frog : 92.41658240647118%
+Accuracy of horse : 0.1023541453428864%
+Accuracy of ship : 58.840304182509506%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 172 is a plane classified as plane with prob. 0.23448441922664642
+Hey, 406 is a plane classified as plane with prob. 0.20351062715053558
+Hey, 432 is a cat classified as plane with prob. 0.23406869173049927
+Hey, 466 is a plane classified as plane with prob. 0.22986644506454468
+Hey, 597 is a ship classified as plane with prob. 0.22775857150554657
+Hey, 1196 is a plane classified as plane with prob. 0.2238953709602356
+Hey, 2031 is a bird classified as plane with prob. 0.19056595861911774
+Hey, 2396 is a plane classified as plane with prob. 0.25113943219184875
+Hey, 2470 is a plane classified as plane with prob. 0.23013140261173248
+Hey, 2652 is a plane classified as plane with prob. 0.20162536203861237
+Hey, 3056 is a plane classified as plane with prob. 0.23107431828975677
+Hey, 3449 is a plane classified as plane with prob. 0.19006021320819855
+Hey, 3526 is a plane classified as plane with prob. 0.23250548541545868
+Hey, 4022 is a dog classified as plane with prob. 0.24640928208827972
+Hey, 4399 is a plane classified as plane with prob. 0.23407234251499176
+Hey, 4486 is a plane classified as plane with prob. 0.22369730472564697
+Hey, 4812 is a car classified as plane with prob. 0.21714377403259277
+nothing to correct
+optimizing class car
+Hey, 49 is a car classified as car with prob. 0.1754366159439087
+Hey, 67 is a car classified as car with prob. 0.17024505138397217
+Hey, 69 is a car classified as car with prob. 0.21810491383075714
+Hey, 81 is a bird classified as car with prob. 0.22959277033805847
+Hey, 144 is a car classified as car with prob. 0.21194224059581757
+Hey, 258 is a car classified as car with prob. 0.16014498472213745
+Hey, 377 is a car classified as car with prob. 0.25882449746131897
+Hey, 441 is a horse classified as car with prob. 0.2244134247303009
+Hey, 442 is a car classified as car with prob. 0.2431151121854782
+Hey, 446 is a car classified as car with prob. 0.23409241437911987
+Hey, 471 is a car classified as car with prob. 0.2077636569738388
+Hey, 589 is a car classified as car with prob. 0.1811123788356781
+Hey, 601 is a car classified as car with prob. 0.22281721234321594
+Hey, 1023 is a cat classified as car with prob. 0.24690374732017517
+Hey, 1074 is a car classified as car with prob. 0.2552402913570404
+Hey, 1075 is a truck classified as car with prob. 0.21915897727012634
+Hey, 1240 is a car classified as car with prob. 0.16127952933311462
+Hey, 1301 is a car classified as car with prob. 0.20654980838298798
+Hey, 1335 is a car classified as car with prob. 0.22905275225639343
+Hey, 1370 is a truck classified as car with prob. 0.2457035779953003
+Hey, 1431 is a car classified as car with prob. 0.24906136095523834
+Hey, 1451 is a car classified as car with prob. 0.23586222529411316
+Hey, 1494 is a dog classified as car with prob. 0.18053391575813293
+Hey, 1509 is a car classified as car with prob. 0.15018969774246216
+Hey, 1578 is a horse classified as car with prob. 0.23036795854568481
+Hey, 1730 is a car classified as car with prob. 0.20195230841636658
+Hey, 1835 is a car classified as car with prob. 0.25459709763526917
+Hey, 1855 is a car classified as car with prob. 0.2297825664281845
+Hey, 1870 is a car classified as car with prob. 0.21552617847919464
+Hey, 1887 is a car classified as car with prob. 0.18244893848896027
+Hey, 2010 is a bird classified as car with prob. 0.17523498833179474
+Hey, 2019 is a car classified as car with prob. 0.16304607689380646
+Hey, 2068 is a car classified as car with prob. 0.15854549407958984
+Hey, 2098 is a car classified as car with prob. 0.21968498826026917
+Hey, 2133 is a car classified as car with prob. 0.23615486919879913
+Hey, 2178 is a car classified as car with prob. 0.15990349650382996
+Hey, 2244 is a car classified as car with prob. 0.18798977136611938
+Hey, 2322 is a car classified as car with prob. 0.25452572107315063
+Hey, 2547 is a car classified as car with prob. 0.1563669592142105
+Hey, 2701 is a car classified as car with prob. 0.21228456497192383
+Hey, 2762 is a car classified as car with prob. 0.21970315277576447
+Hey, 2778 is a car classified as car with prob. 0.202991783618927
+Hey, 2830 is a car classified as car with prob. 0.21556305885314941
+Hey, 2905 is a car classified as car with prob. 0.16453817486763
+Hey, 2945 is a car classified as car with prob. 0.23586797714233398
+Hey, 3034 is a dog classified as car with prob. 0.22995461523532867
+Hey, 3126 is a truck classified as car with prob. 0.18633116781711578
+Hey, 3150 is a car classified as car with prob. 0.2108718305826187
+Hey, 3158 is a deer classified as car with prob. 0.17649255692958832
+Hey, 3188 is a car classified as car with prob. 0.23938481509685516
+Hey, 3243 is a car classified as car with prob. 0.3321252465248108
+Hey, 3298 is a car classified as car with prob. 0.15013736486434937
+Hey, 3507 is a car classified as car with prob. 0.23396092653274536
+Hey, 3593 is a car classified as car with prob. 0.23500655591487885
+Hey, 3638 is a car classified as car with prob. 0.22131021320819855
+Hey, 3672 is a truck classified as car with prob. 0.1975407600402832
+Hey, 3739 is a car classified as car with prob. 0.16241726279258728
+Hey, 4230 is a car classified as car with prob. 0.2446790486574173
+Hey, 4385 is a car classified as car with prob. 0.2414286732673645
+Hey, 4387 is a car classified as car with prob. 0.22015489637851715
+Hey, 4394 is a bird classified as car with prob. 0.20290584862232208
+Hey, 4534 is a car classified as car with prob. 0.2538388967514038
+Hey, 4539 is a car classified as car with prob. 0.17276953160762787
+Hey, 4566 is a deer classified as car with prob. 0.2552710175514221
+Hey, 4716 is a truck classified as car with prob. 0.1759912222623825
+Hey, 4728 is a car classified as car with prob. 0.16017687320709229
+Hey, 4781 is a car classified as car with prob. 0.2536710500717163
+nothing to correct
+optimizing class bird
+Hey, 74 is a bird classified as bird with prob. 0.22621072828769684
+Hey, 1417 is a bird classified as bird with prob. 0.1790086179971695
+Hey, 1773 is a bird classified as bird with prob. 0.18354293704032898
+Hey, 3362 is a cat classified as bird with prob. 0.22483061254024506
+Hey, 3390 is a bird classified as bird with prob. 0.19501911103725433
+Hey, 3699 is a bird classified as bird with prob. 0.22743423283100128
+Hey, 3832 is a bird classified as bird with prob. 0.15248887240886688
+Hey, 4436 is a bird classified as bird with prob. 0.18040159344673157
+nothing to correct
+optimizing class frog
+nothing to correct
+optimizing class ship
+Hey, 343 is a bird classified as ship with prob. 0.2423633337020874
+Hey, 415 is a dog classified as ship with prob. 0.23622208833694458
+Hey, 709 is a cat classified as ship with prob. 0.23087364435195923
+Hey, 1624 is a bird classified as ship with prob. 0.22150881588459015
+Hey, 1782 is a dog classified as ship with prob. 0.23236814141273499
+Hey, 2353 is a ship classified as ship with prob. 0.21828368306159973
+Hey, 2602 is a cat classified as ship with prob. 0.2325909435749054
+Hey, 2621 is a ship classified as ship with prob. 0.23036116361618042
+Hey, 2801 is a plane classified as ship with prob. 0.23539696633815765
+Hey, 2854 is a truck classified as ship with prob. 0.23100921511650085
+Hey, 3043 is a ship classified as ship with prob. 0.23189416527748108
+Hey, 3187 is a bird classified as ship with prob. 0.23787401616573334
+Hey, 3539 is a ship classified as ship with prob. 0.22566847503185272
+Hey, 4661 is a ship classified as ship with prob. 0.23521167039871216
+Hey, 4844 is a ship classified as ship with prob. 0.23107264935970306
+nothing to correct
+corrected 107 labels
+label learning epoch 8 for learning 3697 labels
+partial label learning epoch 0
+[1,   100] loss: 0.016
+[1,   200] loss: 0.016
+[1,   300] loss: 0.017
+[1,   400] loss: 0.017
+[1,   500] loss: 0.017
+partial label learning epoch 1
+[2,   100] loss: 0.017
+[2,   200] loss: 0.017
+[2,   300] loss: 0.016
+[2,   400] loss: 0.017
+[2,   500] loss: 0.017
+partial label learning epoch 2
+[3,   100] loss: 0.017
+[3,   200] loss: 0.017
+[3,   300] loss: 0.017
+[3,   400] loss: 0.017
+[3,   500] loss: 0.017
+partial label learning epoch 3
+[4,   100] loss: 0.017
+[4,   200] loss: 0.017
+[4,   300] loss: 0.017
+[4,   400] loss: 0.017
+[4,   500] loss: 0.017
+partial label learning epoch 4
+[5,   100] loss: 0.017
+[5,   200] loss: 0.017
+[5,   300] loss: 0.017
+[5,   400] loss: 0.017
+[5,   500] loss: 0.017
+partial label learning epoch 5
+[6,   100] loss: 0.017
+[6,   200] loss: 0.017
+[6,   300] loss: 0.017
+[6,   400] loss: 0.017
+[6,   500] loss: 0.016
+partial label learning epoch 6
+[7,   100] loss: 0.016
+[7,   200] loss: 0.017
+[7,   300] loss: 0.017
+[7,   400] loss: 0.017
+[7,   500] loss: 0.017
+partial label learning epoch 7
+[8,   100] loss: 0.017
+[8,   200] loss: 0.016
+[8,   300] loss: 0.017
+[8,   400] loss: 0.016
+[8,   500] loss: 0.017
+partial label learning epoch 8
+[9,   100] loss: 0.016
+[9,   200] loss: 0.017
+[9,   300] loss: 0.016
+[9,   400] loss: 0.017
+[9,   500] loss: 0.017
+partial label learning epoch 9
+[10,   100] loss: 0.017
+[10,   200] loss: 0.017
+[10,   300] loss: 0.016
+[10,   400] loss: 0.017
+[10,   500] loss: 0.016
+partial label learning epoch 10
+[11,   100] loss: 0.016
+[11,   200] loss: 0.016
+[11,   300] loss: 0.016
+[11,   400] loss: 0.015
+[11,   500] loss: 0.015
+partial label learning epoch 11
+[12,   100] loss: 0.015
+[12,   200] loss: 0.015
+[12,   300] loss: 0.015
+[12,   400] loss: 0.015
+[12,   500] loss: 0.015
+partial label learning epoch 12
+[13,   100] loss: 0.016
+[13,   200] loss: 0.015
+[13,   300] loss: 0.015
+[13,   400] loss: 0.015
+[13,   500] loss: 0.015
+partial label learning epoch 13
+[14,   100] loss: 0.015
+[14,   200] loss: 0.015
+[14,   300] loss: 0.015
+[14,   400] loss: 0.015
+[14,   500] loss: 0.015
+partial label learning epoch 14
+[15,   100] loss: 0.015
+[15,   200] loss: 0.015
+[15,   300] loss: 0.015
+[15,   400] loss: 0.015
+[15,   500] loss: 0.015
+partial label learning epoch 15
+[16,   100] loss: 0.015
+[16,   200] loss: 0.015
+[16,   300] loss: 0.015
+[16,   400] loss: 0.015
+[16,   500] loss: 0.015
+partial label learning epoch 16
+[17,   100] loss: 0.015
+[17,   200] loss: 0.015
+[17,   300] loss: 0.015
+[17,   400] loss: 0.015
+[17,   500] loss: 0.015
+partial label learning epoch 17
+[18,   100] loss: 0.015
+[18,   200] loss: 0.015
+[18,   300] loss: 0.015
+[18,   400] loss: 0.015
+[18,   500] loss: 0.015
+partial label learning epoch 18
+[19,   100] loss: 0.015
+[19,   200] loss: 0.015
+[19,   300] loss: 0.015
+[19,   400] loss: 0.015
+[19,   500] loss: 0.015
+partial label learning epoch 19
+[20,   100] loss: 0.015
+[20,   200] loss: 0.015
+[20,   300] loss: 0.015
+[20,   400] loss: 0.015
+[20,   500] loss: 0.015
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [475.0, 389.0, 20.0, 841.0, 0.0, 0.0, 0.0, 0.0, 620.0, 0.0]
+Accuracy of plane : 48.223350253807105%
+Accuracy of car : 38.09990205680705%
+Accuracy of bird : 2.0161290322580645%
+Accuracy of cat : 83.51539225422046%
+Accuracy of deer : 0.0%
+Accuracy of dog : 0.0%
+Accuracy of frog : 0.0%
+Accuracy of horse : 0.0%
+Accuracy of ship : 58.93536121673004%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 315 is a plane classified as plane with prob. 0.22956465184688568
+Hey, 420 is a horse classified as plane with prob. 0.21357493102550507
+Hey, 766 is a truck classified as plane with prob. 0.23692044615745544
+Hey, 778 is a bird classified as plane with prob. 0.2327989935874939
+Hey, 1035 is a plane classified as plane with prob. 0.17027921974658966
+Hey, 1492 is a plane classified as plane with prob. 0.23869790136814117
+Hey, 1828 is a bird classified as plane with prob. 0.23379990458488464
+Hey, 2427 is a dog classified as plane with prob. 0.2337982952594757
+Hey, 2561 is a plane classified as plane with prob. 0.2294665277004242
+Hey, 2681 is a cat classified as plane with prob. 0.23887263238430023
+Hey, 2724 is a truck classified as plane with prob. 0.23227424919605255
+Hey, 2936 is a plane classified as plane with prob. 0.23241956532001495
+Hey, 3240 is a plane classified as plane with prob. 0.2278739959001541
+Hey, 3416 is a ship classified as plane with prob. 0.23752804100513458
+Hey, 3920 is a ship classified as plane with prob. 0.20869916677474976
+Hey, 4275 is a plane classified as plane with prob. 0.1967441886663437
+Hey, 4591 is a deer classified as plane with prob. 0.23289702832698822
+Hey, 4630 is a plane classified as plane with prob. 0.2351793348789215
+nothing to correct
+optimizing class car
+Hey, 272 is a car classified as car with prob. 0.20050695538520813
+Hey, 324 is a car classified as car with prob. 0.2101040631532669
+Hey, 475 is a truck classified as car with prob. 0.2357185184955597
+Hey, 843 is a truck classified as car with prob. 0.23425249755382538
+Hey, 927 is a car classified as car with prob. 0.18489977717399597
+Hey, 939 is a car classified as car with prob. 0.199678435921669
+Hey, 1050 is a truck classified as car with prob. 0.24342136085033417
+Hey, 1135 is a car classified as car with prob. 0.2248086780309677
+Hey, 1406 is a car classified as car with prob. 0.2501406669616699
+Hey, 1680 is a horse classified as car with prob. 0.20315921306610107
+Hey, 1853 is a dog classified as car with prob. 0.22909896075725555
+Hey, 1995 is a car classified as car with prob. 0.15675631165504456
+Hey, 2109 is a car classified as car with prob. 0.15842697024345398
+Hey, 2331 is a car classified as car with prob. 0.22125138342380524
+Hey, 2415 is a plane classified as car with prob. 0.2286704182624817
+Hey, 2461 is a car classified as car with prob. 0.17224735021591187
+Hey, 2570 is a car classified as car with prob. 0.180191308259964
+Hey, 2601 is a cat classified as car with prob. 0.18582381308078766
+Hey, 2812 is a frog classified as car with prob. 0.18566466867923737
+Hey, 2822 is a car classified as car with prob. 0.17934030294418335
+Hey, 2879 is a car classified as car with prob. 0.23962298035621643
+Hey, 2925 is a car classified as car with prob. 0.15262654423713684
+Hey, 2995 is a car classified as car with prob. 0.2334357053041458
+Hey, 3050 is a car classified as car with prob. 0.24902862310409546
+Hey, 3199 is a car classified as car with prob. 0.20957696437835693
+Hey, 3558 is a horse classified as car with prob. 0.18665827810764313
+Hey, 3768 is a car classified as car with prob. 0.29331105947494507
+Hey, 4123 is a car classified as car with prob. 0.23068022727966309
+Hey, 4274 is a car classified as car with prob. 0.18849818408489227
+Hey, 4319 is a dog classified as car with prob. 0.22766859829425812
+Hey, 4325 is a car classified as car with prob. 0.16928863525390625
+Hey, 4335 is a car classified as car with prob. 0.18045537173748016
+Hey, 4366 is a car classified as car with prob. 0.15983356535434723
+Hey, 4809 is a car classified as car with prob. 0.15603812038898468
+nothing to correct
+optimizing class bird
+Hey, 8 is a bird classified as bird with prob. 0.1574617624282837
+Hey, 65 is a dog classified as bird with prob. 0.21883824467658997
+Hey, 361 is a truck classified as bird with prob. 0.2154579758644104
+Hey, 491 is a bird classified as bird with prob. 0.2206634134054184
+Hey, 620 is a bird classified as bird with prob. 0.22747913002967834
+Hey, 949 is a bird classified as bird with prob. 0.2215234935283661
+Hey, 999 is a truck classified as bird with prob. 0.22068852186203003
+Hey, 1006 is a horse classified as bird with prob. 0.22757013142108917
+Hey, 1045 is a bird classified as bird with prob. 0.2493128627538681
+Hey, 1115 is a bird classified as bird with prob. 0.21452389657497406
+Hey, 1366 is a bird classified as bird with prob. 0.22152458131313324
+Hey, 1384 is a bird classified as bird with prob. 0.2313564121723175
+Hey, 1655 is a bird classified as bird with prob. 0.23616650700569153
+Hey, 2037 is a bird classified as bird with prob. 0.23924049735069275
+Hey, 2323 is a bird classified as bird with prob. 0.21900001168251038
+Hey, 2814 is a bird classified as bird with prob. 0.2674647569656372
+Hey, 3161 is a bird classified as bird with prob. 0.240722194314003
+Hey, 3173 is a truck classified as bird with prob. 0.16452617943286896
+Hey, 3409 is a bird classified as bird with prob. 0.1670638918876648
+Hey, 3428 is a car classified as bird with prob. 0.15244410932064056
+Hey, 3437 is a bird classified as bird with prob. 0.22811564803123474
+Hey, 3642 is a bird classified as bird with prob. 0.22906963527202606
+Hey, 3652 is a bird classified as bird with prob. 0.15587474405765533
+Hey, 3784 is a bird classified as bird with prob. 0.22570182383060455
+Hey, 4077 is a bird classified as bird with prob. 0.17148880660533905
+Hey, 4355 is a plane classified as bird with prob. 0.22670869529247284
+Hey, 4479 is a bird classified as bird with prob. 0.23955000936985016
+Hey, 4828 is a bird classified as bird with prob. 0.24239963293075562
+nothing to correct
+optimizing class cat
+nothing to correct
+optimizing class ship
+Hey, 321 is a ship classified as ship with prob. 0.23038755357265472
+Hey, 617 is a bird classified as ship with prob. 0.22914765775203705
+Hey, 914 is a dog classified as ship with prob. 0.2236410677433014
+Hey, 925 is a truck classified as ship with prob. 0.2267087697982788
+Hey, 1070 is a frog classified as ship with prob. 0.2312975823879242
+Hey, 1185 is a deer classified as ship with prob. 0.22970598936080933
+Hey, 1234 is a cat classified as ship with prob. 0.2225734442472458
+Hey, 1969 is a ship classified as ship with prob. 0.23266324400901794
+Hey, 2341 is a ship classified as ship with prob. 0.2355487197637558
+Hey, 2504 is a deer classified as ship with prob. 0.2306448072195053
+Hey, 2884 is a truck classified as ship with prob. 0.2322050929069519
+Hey, 3874 is a deer classified as ship with prob. 0.23310622572898865
+Hey, 4055 is a ship classified as ship with prob. 0.23203209042549133
+Hey, 4190 is a ship classified as ship with prob. 0.2281871736049652
+Hey, 4589 is a bird classified as ship with prob. 0.20410925149917603
+Hey, 4788 is a ship classified as ship with prob. 0.2325332909822464
+nothing to correct
+corrected 96 labels
+label learning epoch 9 for learning 3601 labels
+partial label learning epoch 0
+[1,   100] loss: 0.016
+[1,   200] loss: 0.016
+[1,   300] loss: 0.016
+[1,   400] loss: 0.016
+[1,   500] loss: 0.016
+partial label learning epoch 1
+[2,   100] loss: 0.016
+[2,   200] loss: 0.016
+[2,   300] loss: 0.016
+[2,   400] loss: 0.016
+[2,   500] loss: 0.016
+partial label learning epoch 2
+[3,   100] loss: 0.016
+[3,   200] loss: 0.017
+[3,   300] loss: 0.016
+[3,   400] loss: 0.016
+[3,   500] loss: 0.016
+partial label learning epoch 3
+[4,   100] loss: 0.016
+[4,   200] loss: 0.016
+[4,   300] loss: 0.016
+[4,   400] loss: 0.016
+[4,   500] loss: 0.017
+partial label learning epoch 4
+[5,   100] loss: 0.017
+[5,   200] loss: 0.016
+[5,   300] loss: 0.016
+[5,   400] loss: 0.016
+[5,   500] loss: 0.017
+partial label learning epoch 5
+[6,   100] loss: 0.016
+[6,   200] loss: 0.016
+[6,   300] loss: 0.016
+[6,   400] loss: 0.016
+[6,   500] loss: 0.016
+partial label learning epoch 6
+[7,   100] loss: 0.016
+[7,   200] loss: 0.016
+[7,   300] loss: 0.016
+[7,   400] loss: 0.017
+[7,   500] loss: 0.017
+partial label learning epoch 7
+[8,   100] loss: 0.016
+[8,   200] loss: 0.017
+[8,   300] loss: 0.016
+[8,   400] loss: 0.016
+[8,   500] loss: 0.017
+partial label learning epoch 8
+[9,   100] loss: 0.016
+[9,   200] loss: 0.016
+[9,   300] loss: 0.016
+[9,   400] loss: 0.016
+[9,   500] loss: 0.016
+partial label learning epoch 9
+[10,   100] loss: 0.016
+[10,   200] loss: 0.016
+[10,   300] loss: 0.016
+[10,   400] loss: 0.017
+[10,   500] loss: 0.016
+partial label learning epoch 10
+[11,   100] loss: 0.016
+[11,   200] loss: 0.015
+[11,   300] loss: 0.015
+[11,   400] loss: 0.015
+[11,   500] loss: 0.015
+partial label learning epoch 11
+[12,   100] loss: 0.015
+[12,   200] loss: 0.015
+[12,   300] loss: 0.015
+[12,   400] loss: 0.015
+[12,   500] loss: 0.015
+partial label learning epoch 12
+[13,   100] loss: 0.015
+[13,   200] loss: 0.015
+[13,   300] loss: 0.015
+[13,   400] loss: 0.015
+[13,   500] loss: 0.014
+partial label learning epoch 13
+[14,   100] loss: 0.015
+[14,   200] loss: 0.015
+[14,   300] loss: 0.015
+[14,   400] loss: 0.015
+[14,   500] loss: 0.015
+partial label learning epoch 14
+[15,   100] loss: 0.015
+[15,   200] loss: 0.014
+[15,   300] loss: 0.015
+[15,   400] loss: 0.015
+[15,   500] loss: 0.015
+partial label learning epoch 15
+[16,   100] loss: 0.014
+[16,   200] loss: 0.015
+[16,   300] loss: 0.015
+[16,   400] loss: 0.015
+[16,   500] loss: 0.015
+partial label learning epoch 16
+[17,   100] loss: 0.015
+[17,   200] loss: 0.015
+[17,   300] loss: 0.015
+[17,   400] loss: 0.014
+[17,   500] loss: 0.014
+partial label learning epoch 17
+[18,   100] loss: 0.015
+[18,   200] loss: 0.014
+[18,   300] loss: 0.015
+[18,   400] loss: 0.015
+[18,   500] loss: 0.014
+partial label learning epoch 18
+[19,   100] loss: 0.015
+[19,   200] loss: 0.015
+[19,   300] loss: 0.014
+[19,   400] loss: 0.015
+[19,   500] loss: 0.015
+partial label learning epoch 19
+[20,   100] loss: 0.015
+[20,   200] loss: 0.014
+[20,   300] loss: 0.014
+[20,   400] loss: 0.015
+[20,   500] loss: 0.015
+[985.0, 1021.0, 992.0, 1007.0, 963.0, 1004.0, 989.0, 977.0, 1052.0, 1010.0] [454.0, 380.0, 28.0, 0.0, 1.0, 0.0, 915.0, 0.0, 628.0, 0.0]
+Accuracy of plane : 46.09137055837564%
+Accuracy of car : 37.218413320274244%
+Accuracy of bird : 2.8225806451612905%
+Accuracy of cat : 0.0%
+Accuracy of deer : 0.10384215991692627%
+Accuracy of dog : 0.0%
+Accuracy of frog : 92.51769464105156%
+Accuracy of horse : 0.0%
+Accuracy of ship : 59.6958174904943%
+Accuracy of truck : 0.0%
+optimizing class plane
+Hey, 416 is a cat classified as plane with prob. 0.24740111827850342
+Hey, 1157 is a plane classified as plane with prob. 0.23414066433906555
+Hey, 1394 is a plane classified as plane with prob. 0.23137499392032623
+Hey, 1774 is a dog classified as plane with prob. 0.23019804060459137
+Hey, 1844 is a plane classified as plane with prob. 0.2316516935825348
+Hey, 1915 is a deer classified as plane with prob. 0.23393923044204712
+Hey, 2563 is a plane classified as plane with prob. 0.22550132870674133
+Hey, 2696 is a plane classified as plane with prob. 0.2412620186805725
+Hey, 2868 is a plane classified as plane with prob. 0.23754744231700897
+Hey, 2876 is a truck classified as plane with prob. 0.22135213017463684
+Hey, 3370 is a plane classified as plane with prob. 0.22846464812755585
+Hey, 3424 is a deer classified as plane with prob. 0.2304747998714447
+Hey, 3447 is a plane classified as plane with prob. 0.2149142324924469
+Hey, 4099 is a plane classified as plane with prob. 0.1522602140903473
+Hey, 4470 is a plane classified as plane with prob. 0.24114567041397095
+Hey, 4953 is a truck classified as plane with prob. 0.22955024242401123
+nothing to correct
+optimizing class car
+Hey, 30 is a car classified as car with prob. 0.20037473738193512
+Hey, 44 is a car classified as car with prob. 0.16708089411258698
+Hey, 465 is a car classified as car with prob. 0.21651270985603333
+Hey, 681 is a car classified as car with prob. 0.2604403793811798
+Hey, 714 is a truck classified as car with prob. 0.25690025091171265
+Hey, 715 is a car classified as car with prob. 0.24326178431510925
+Hey, 736 is a car classified as car with prob. 0.2233547866344452
+Hey, 744 is a car classified as car with prob. 0.24288006126880646
+Hey, 756 is a deer classified as car with prob. 0.24888303875923157
+Hey, 994 is a car classified as car with prob. 0.16033530235290527
+Hey, 1277 is a car classified as car with prob. 0.2183816283941269
+Hey, 1420 is a car classified as car with prob. 0.21896082162857056
+Hey, 1793 is a car classified as car with prob. 0.2442913055419922
+Hey, 1842 is a truck classified as car with prob. 0.22966402769088745
+Hey, 2011 is a car classified as car with prob. 0.16093139350414276
+Hey, 2192 is a horse classified as car with prob. 0.1529778093099594
+Hey, 2384 is a car classified as car with prob. 0.19230957329273224
+Hey, 2448 is a horse classified as car with prob. 0.190426304936409
+Hey, 2658 is a car classified as car with prob. 0.18748167157173157
+Hey, 2859 is a truck classified as car with prob. 0.20669659972190857
+Hey, 3117 is a car classified as car with prob. 0.1793045699596405
+Hey, 3270 is a horse classified as car with prob. 0.16144727170467377
+Hey, 3489 is a truck classified as car with prob. 0.22148217260837555
+Hey, 3513 is a car classified as car with prob. 0.23803895711898804
+Hey, 3559 is a car classified as car with prob. 0.15832741558551788
+Hey, 3701 is a car classified as car with prob. 0.15824222564697266
+Hey, 3778 is a car classified as car with prob. 0.17497307062149048
+Hey, 4137 is a car classified as car with prob. 0.1505405306816101
+Hey, 4327 is a car classified as car with prob. 0.18062710762023926
+Hey, 4791 is a car classified as car with prob. 0.15017348527908325
+nothing to correct
+optimizing class bird
+Hey, 47 is a bird classified as bird with prob. 0.2457779198884964
+Hey, 878 is a bird classified as bird with prob. 0.2241954505443573
+Hey, 974 is a bird classified as bird with prob. 0.24285100400447845
+Hey, 1169 is a bird classified as bird with prob. 0.16903753578662872
+Hey, 1249 is a bird classified as bird with prob. 0.20119526982307434
+Hey, 1786 is a bird classified as bird with prob. 0.16068997979164124
+Hey, 2791 is a bird classified as bird with prob. 0.2290041297674179
+Hey, 4214 is a bird classified as bird with prob. 0.16670304536819458
+Hey, 4265 is a horse classified as bird with prob. 0.2089914232492447
+Hey, 4404 is a cat classified as bird with prob. 0.19456887245178223
+nothing to correct
+optimizing class frog
+nothing to correct
+optimizing class ship
+Hey, 19 is a truck classified as ship with prob. 0.22238978743553162
+Hey, 1082 is a ship classified as ship with prob. 0.24241244792938232
+Hey, 1450 is a ship classified as ship with prob. 0.239730566740036
+Hey, 1669 is a truck classified as ship with prob. 0.25224390625953674
+Hey, 1675 is a ship classified as ship with prob. 0.23375393450260162
+Hey, 2081 is a truck classified as ship with prob. 0.23517298698425293
+Hey, 2186 is a ship classified as ship with prob. 0.22992777824401855
+Hey, 3300 is a ship classified as ship with prob. 0.2370235025882721
+Hey, 3319 is a horse classified as ship with prob. 0.2378370463848114
+Hey, 3381 is a frog classified as ship with prob. 0.21883507072925568
+Hey, 3471 is a ship classified as ship with prob. 0.23279868066310883
+Hey, 4421 is a plane classified as ship with prob. 0.2175559550523758
+Hey, 4447 is a ship classified as ship with prob. 0.23018307983875275
+nothing to correct
+corrected 69 labels
+Files already downloaded and verified
+Accuracy of the network on the test images: 23 %
+[1,   100] loss: 0.016
+[1,   200] loss: 0.016
+[1,   300] loss: 0.016
+[1,   400] loss: 0.016
+[1,   500] loss: 0.016
+[2,   100] loss: 0.016
+[2,   200] loss: 0.016
+[2,   300] loss: 0.016
+[2,   400] loss: 0.015
+[2,   500] loss: 0.016
+[3,   100] loss: 0.016
+[3,   200] loss: 0.016
+[3,   300] loss: 0.016
+[3,   400] loss: 0.016
+[3,   500] loss: 0.016
+[4,   100] loss: 0.016
+[4,   200] loss: 0.016
+[4,   300] loss: 0.016
+[4,   400] loss: 0.016
+[4,   500] loss: 0.016
+[5,   100] loss: 0.016
+[5,   200] loss: 0.017
+[5,   300] loss: 0.016
+[5,   400] loss: 0.016
+[5,   500] loss: 0.016
+[6,   100] loss: 0.016
+[6,   200] loss: 0.016
+[6,   300] loss: 0.016
+[6,   400] loss: 0.016
+[6,   500] loss: 0.016
+[7,   100] loss: 0.016
+[7,   200] loss: 0.016
+[7,   300] loss: 0.016
+[7,   400] loss: 0.016
+[7,   500] loss: 0.016
+[8,   100] loss: 0.016
+[8,   200] loss: 0.016
+[8,   300] loss: 0.016
+[8,   400] loss: 0.016
+[8,   500] loss: 0.016
+[9,   100] loss: 0.016
+[9,   200] loss: 0.016
+[9,   300] loss: 0.016
+[9,   400] loss: 0.016
+[9,   500] loss: 0.016
+[10,   100] loss: 0.016
+[10,   200] loss: 0.016
+[10,   300] loss: 0.016
+[10,   400] loss: 0.016
+[10,   500] loss: 0.016
+[11,   100] loss: 0.015
+[11,   200] loss: 0.015
+[11,   300] loss: 0.015
+[11,   400] loss: 0.015
+[11,   500] loss: 0.015
+[12,   100] loss: 0.015
+[12,   200] loss: 0.015
+[12,   300] loss: 0.015
+[12,   400] loss: 0.014
+[12,   500] loss: 0.015
+[13,   100] loss: 0.014
+[13,   200] loss: 0.014
+[13,   300] loss: 0.015
+[13,   400] loss: 0.015
+[13,   500] loss: 0.014
+[14,   100] loss: 0.015
+[14,   200] loss: 0.015
+[14,   300] loss: 0.014
+[14,   400] loss: 0.014
+[14,   500] loss: 0.014
+[15,   100] loss: 0.014
+[15,   200] loss: 0.015
+[15,   300] loss: 0.015
+[15,   400] loss: 0.014
+[15,   500] loss: 0.014
+[16,   100] loss: 0.014
+[16,   200] loss: 0.014
+[16,   300] loss: 0.014
+[16,   400] loss: 0.014
+[16,   500] loss: 0.015
+[17,   100] loss: 0.014
+[17,   200] loss: 0.014
+[17,   300] loss: 0.015
+[17,   400] loss: 0.014
+[17,   500] loss: 0.014
+[18,   100] loss: 0.015
+[18,   200] loss: 0.014
+[18,   300] loss: 0.014
+[18,   400] loss: 0.014
+[18,   500] loss: 0.014
+[19,   100] loss: 0.014
+[19,   200] loss: 0.015
+[19,   300] loss: 0.014
+[19,   400] loss: 0.015
+[19,   500] loss: 0.014
+[20,   100] loss: 0.014
+[20,   200] loss: 0.014
+[20,   300] loss: 0.014
+[20,   400] loss: 0.014
+[20,   500] loss: 0.014
+Files already downloaded and verified
+Accuracy of the network on the test images: 23 %
+Finished Training
