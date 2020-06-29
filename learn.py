@@ -78,9 +78,8 @@ while (label_learning_epoch < label_learning_epochs and not_learned_labels > 100
 test_performance(model)    
 
 # Train after the correction
-regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
-train_regular(trainset, epochs, model, regular_optimizer, nn.L1Loss(), \
-    optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
+lr_scheduler, optimizer = createOptimizer(model, learning_rate, hyperparameters)
+train_regular(trainset, epochs, model, regular_optimizer, nn.L1Loss(), lr_scheduler, batch_size, early_stop)
 test_performance(model)
 
 print('Finished Training')
