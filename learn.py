@@ -9,7 +9,7 @@ import torch.optim as optim
 from regular import train_regular
 from preprocess import OneHotLabelCifarData, PartialLabelCifarData, transformer, classes, n_classes, get_class_performance, test_performance
 from net import create_net
-from partial import partialStep, optimizeTrainingData
+from partial import partialStep, optimizeTrainingData, notLearnedLabels
 
 def createOptimizer(net, learning_rate, hyperparameters):
     optimizer_name = hyperparameters.get("optimizer", "SGD")
@@ -38,6 +38,7 @@ batch_size = hyperparameters.get("batch_size", 5)
 learning_rate = hyperparameters.get("learning_rate", 0.1)
 early_stop = hyperparameters.get("early_stop", 0)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+label_learning_epochs = hyperparameters.get("label_learning_epochs", 20)
 
 dataset = CIFAR10(root='./data', train=True, download=True, transform=transformer)
 validation_size = 10000
@@ -61,15 +62,15 @@ model.to(device)
 criterion = nn.L1Loss().to(device)
 
 label_learning_epoch = 0
-corrected = 0
-while (label_learning_epoch < 100 and corrected < 5000):
+not_learned_labels = 5000
+while (label_learning_epoch < label_learning_epochs and corrected < 5000):
     # Train
     lr_scheduler, optimizer = createOptimizer(model, learning_rate, hyperparameters)
     partialStep(model, trainloader, epochs, optimizer, criterion, early_stop, lr_scheduler)
 
     # Optimize
     count = optimizeTrainingData(model, valset, trainset)
-    corrected += count
+    not_learned_labels = notLearnedLabels(trainset)
 
 test_performance(model)    
 

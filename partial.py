@@ -9,6 +9,13 @@ import torch.optim as optim
 from preprocess import OneHotLabelCifarData, PartialLabelCifarData, classes, n_classes, get_class_performance
 from net import create_net
 
+def notLearnedLabels(trainset : PartialLabelCifarData):
+    count = 0
+    for i in range(len(trainset)):
+        # If the item is marked as having this class and another
+        count += 1 if torch.sum(trainset[i][1]) == 2 else 0
+    return count
+
 def optimizeClass(model : nn.Module, trainset : PartialLabelCifarData, optimized_class:int, prediction_threshold:float):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     optimized_entities = 0

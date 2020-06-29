@@ -220,6 +220,7 @@ class CNN(nn.Module):
 def create_net():
     hyperparams_dict = {
         "batch_size": 10,
+        "label_learning_epochs": 10,
         "epochs": 20,
         "learning_rate": 0.1,
         "learning_rate_decay": 0.1,
