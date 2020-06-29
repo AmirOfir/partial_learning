@@ -48,10 +48,9 @@ trainset = PartialLabelCifarData(train_data)
 
 def netMaxResults():
     print("regular training")
-    regular_optimizer = createOptimizer(model, learning_rate, hyperparameters)
+    lr_scheduler, optimizer = createOptimizer(model, learning_rate, hyperparameters)
     trainset = OneHotLabelCifarData(train_data)
-    train_regular(trainset, epochs, model, regular_optimizer, nn.L1Loss(), \
-        optim.lr_scheduler.StepLR(optimizer=regular_optimizer, step_size=1, gamma=0.9), batch_size, early_stop)
+    train_regular(trainset, epochs, model, optimizer, nn.L1Loss(), lr_scheduler, batch_size, early_stop)
     get_class_performance(model, valset)
     test_performance(model)
 
@@ -79,7 +78,7 @@ test_performance(model)
 
 # Train after the correction
 lr_scheduler, optimizer = createOptimizer(model, learning_rate, hyperparameters)
-train_regular(trainset, epochs, model, regular_optimizer, nn.L1Loss(), lr_scheduler, batch_size, early_stop)
+train_regular(trainset, epochs, model, optimizer, nn.L1Loss(), lr_scheduler, batch_size, early_stop)
 test_performance(model)
 
 print('Finished Training')
