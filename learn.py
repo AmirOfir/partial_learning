@@ -71,7 +71,9 @@ while (label_learning_epoch < label_learning_epochs and not_learned_labels > 100
 
     # Optimize
     count = optimizeTrainingData(model, valset, trainset)
+
     not_learned_labels = notLearnedLabels(trainset)
+    label_learning_epoch += 1
 
 test_performance(model)    
 
